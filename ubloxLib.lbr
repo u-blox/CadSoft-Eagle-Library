@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -819,6 +819,1722 @@
 <smd name="96" x="5.25" y="-10.25" dx="1.05" dy="1.05" layer="1" rot="R180"/>
 <text x="-7.62" y="13.97" size="0.6096" layer="25" font="vector">&gt;NAME</text>
 </package>
+<package name="ODIN-69">
+<description>&lt;b&gt;ODIN-W1:&lt;/b&gt; 69 pin&lt;p&gt;
+&lt;a href="http://www.u-blox.com"&gt;u-blox.com&lt;/a&gt;</description>
+<text x="-11.15" y="8.6" size="1.5" layer="25">&gt;NAME</text>
+<text x="-11.15" y="-9.9" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="11.15" y1="7.4" x2="11.15" y2="-7.4" width="0.15" layer="21"/>
+<wire x1="-11.15" y1="-7.4" x2="-11.15" y2="7.4" width="0.15" layer="21"/>
+<wire x1="-12.15" y1="8.4" x2="-12.15" y2="-8.4" width="0.1" layer="39"/>
+<wire x1="-12.15" y1="-8.4" x2="12.15" y2="-8.4" width="0.1" layer="39"/>
+<wire x1="12.15" y1="-8.4" x2="12.15" y2="8.4" width="0.1" layer="39"/>
+<wire x1="12.15" y1="8.4" x2="-12.15" y2="8.4" width="0.1" layer="39"/>
+<circle x="-12.15" y="-8.4" radius="0.25" width="0.75" layer="21"/>
+<circle x="-3" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="7" x="-3" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="-1.8" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="8" x="-1.8" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="-0.6" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="9" x="-0.6" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="0.6" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="10" x="0.6" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="1.8" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="11" x="1.8" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="3" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="12" x="3" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="4.2" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="13" x="4.2" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="5.4" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="14" x="5.4" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="6.6" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="15" x="6.6" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="7.8" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="16" x="7.8" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="9" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="17" x="9" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="10.2" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="18" x="10.2" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="-10.2" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="1" x="-10.2" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="-9" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="2" x="-9" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="-7.8" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="3" x="-7.8" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="-6.6" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="4" x="-6.6" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="-5.4" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="5" x="-5.4" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="-4.2" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="6" x="-4.2" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="3" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="25" x="3" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="1.8" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="26" x="1.8" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="0.6" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="27" x="0.6" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="-0.6" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="28" x="-0.6" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="-1.8" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="29" x="-1.8" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="-3" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="30" x="-3" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="-4.2" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="31" x="-4.2" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="-5.4" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="32" x="-5.4" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="-6.6" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="33" x="-6.6" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="-7.8" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="34" x="-7.8" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="-9" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="35" x="-9" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="-10.2" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="36" x="-10.2" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="10.2" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="19" x="10.2" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="9" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="20" x="9" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="7.8" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="21" x="7.8" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="6.6" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="22" x="6.6" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="5.4" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="23" x="5.4" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="4.2" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="24" x="4.2" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<smd name="52" x="6.6" y="-5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="53" x="7.8" y="-5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="54" x="9" y="-5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="55" x="10.2" y="-5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="66" x="6.6" y="5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="67" x="7.8" y="5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="68" x="9" y="5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="69" x="10.2" y="5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="62" x="-10.21" y="5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="60" x="-7.67" y="5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="58" x="-5.13" y="5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="56" x="-2.59" y="5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="65" x="-0.05" y="5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="63" x="-10.21" y="-5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="61" x="-7.67" y="-5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="59" x="-5.13" y="-5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="57" x="-2.59" y="-5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="64" x="-0.05" y="-5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="42" x="-3.6" y="0" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="43" x="-1.8" y="0" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="41" x="5.4" y="1.54" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="46" x="-3.6" y="-1.54" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="47" x="-1.8" y="-1.54" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="48" x="0" y="-1.54" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="49" x="1.8" y="-1.54" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="37" x="-3.6" y="1.54" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="38" x="-1.8" y="1.54" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="39" x="0" y="1.54" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="40" x="1.8" y="1.54" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="50" x="5.4" y="-1.54" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="45" x="7.2" y="0.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="51" x="7.2" y="-0.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="44" x="0" y="0" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<polygon width="0.2" layer="29">
+<vertex x="-10.65" y="7.6"/>
+<vertex x="-10.65" y="6.85" curve="90"/>
+<vertex x="-10.2" y="6.4" curve="90"/>
+<vertex x="-9.75" y="6.85"/>
+<vertex x="-9.75" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-9.45" y="7.6"/>
+<vertex x="-9.45" y="6.85" curve="90"/>
+<vertex x="-9" y="6.4" curve="90"/>
+<vertex x="-8.55" y="6.85"/>
+<vertex x="-8.55" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-8.25" y="7.6"/>
+<vertex x="-8.25" y="6.85" curve="90"/>
+<vertex x="-7.8" y="6.4" curve="90"/>
+<vertex x="-7.35" y="6.85"/>
+<vertex x="-7.35" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-7.05" y="7.6"/>
+<vertex x="-7.05" y="6.85" curve="90"/>
+<vertex x="-6.6" y="6.4" curve="90"/>
+<vertex x="-6.15" y="6.85"/>
+<vertex x="-6.15" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-5.85" y="7.6"/>
+<vertex x="-5.85" y="6.85" curve="90"/>
+<vertex x="-5.4" y="6.4" curve="90"/>
+<vertex x="-4.95" y="6.85"/>
+<vertex x="-4.95" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-4.65" y="7.6"/>
+<vertex x="-4.65" y="6.85" curve="90"/>
+<vertex x="-4.2" y="6.4" curve="90"/>
+<vertex x="-3.75" y="6.85"/>
+<vertex x="-3.75" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-3.45" y="7.6"/>
+<vertex x="-3.45" y="6.85" curve="90"/>
+<vertex x="-3" y="6.4" curve="90"/>
+<vertex x="-2.55" y="6.85"/>
+<vertex x="-2.55" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-2.25" y="7.6"/>
+<vertex x="-2.25" y="6.85" curve="90"/>
+<vertex x="-1.8" y="6.4" curve="90"/>
+<vertex x="-1.35" y="6.85"/>
+<vertex x="-1.35" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-1.05" y="7.6"/>
+<vertex x="-1.05" y="6.85" curve="90"/>
+<vertex x="-0.6" y="6.4" curve="90"/>
+<vertex x="-0.15" y="6.85"/>
+<vertex x="-0.15" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="0.15" y="7.6"/>
+<vertex x="0.15" y="6.85" curve="90"/>
+<vertex x="0.6" y="6.4" curve="90"/>
+<vertex x="1.05" y="6.85"/>
+<vertex x="1.05" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="1.35" y="7.6"/>
+<vertex x="1.35" y="6.85" curve="90"/>
+<vertex x="1.8" y="6.4" curve="90"/>
+<vertex x="2.25" y="6.85"/>
+<vertex x="2.25" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="2.55" y="7.6"/>
+<vertex x="2.55" y="6.85" curve="90"/>
+<vertex x="3" y="6.4" curve="90"/>
+<vertex x="3.45" y="6.85"/>
+<vertex x="3.45" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="3.75" y="7.6"/>
+<vertex x="3.75" y="6.85" curve="90"/>
+<vertex x="4.2" y="6.4" curve="90"/>
+<vertex x="4.65" y="6.85"/>
+<vertex x="4.65" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="4.95" y="7.6"/>
+<vertex x="4.95" y="6.85" curve="90"/>
+<vertex x="5.4" y="6.4" curve="90"/>
+<vertex x="5.85" y="6.85"/>
+<vertex x="5.85" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="6.15" y="7.6"/>
+<vertex x="6.15" y="6.85" curve="90"/>
+<vertex x="6.6" y="6.4" curve="90"/>
+<vertex x="7.05" y="6.85"/>
+<vertex x="7.05" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="7.35" y="7.6"/>
+<vertex x="7.35" y="6.85" curve="90"/>
+<vertex x="7.8" y="6.4" curve="90"/>
+<vertex x="8.25" y="6.85"/>
+<vertex x="8.25" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="8.55" y="7.6"/>
+<vertex x="8.55" y="6.85" curve="90"/>
+<vertex x="9" y="6.4" curve="90"/>
+<vertex x="9.45" y="6.85"/>
+<vertex x="9.45" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="9.75" y="7.6"/>
+<vertex x="9.75" y="6.85" curve="90"/>
+<vertex x="10.2" y="6.4" curve="90"/>
+<vertex x="10.65" y="6.85"/>
+<vertex x="10.65" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="10.65" y="-7.6"/>
+<vertex x="10.65" y="-6.85" curve="90"/>
+<vertex x="10.2" y="-6.4" curve="90"/>
+<vertex x="9.75" y="-6.85"/>
+<vertex x="9.75" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="9.45" y="-7.6"/>
+<vertex x="9.45" y="-6.85" curve="90"/>
+<vertex x="9" y="-6.4" curve="90"/>
+<vertex x="8.55" y="-6.85"/>
+<vertex x="8.55" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="8.25" y="-7.6"/>
+<vertex x="8.25" y="-6.85" curve="90"/>
+<vertex x="7.8" y="-6.4" curve="90"/>
+<vertex x="7.35" y="-6.85"/>
+<vertex x="7.35" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="7.05" y="-7.6"/>
+<vertex x="7.05" y="-6.85" curve="90"/>
+<vertex x="6.6" y="-6.4" curve="90"/>
+<vertex x="6.15" y="-6.85"/>
+<vertex x="6.15" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="5.85" y="-7.6"/>
+<vertex x="5.85" y="-6.85" curve="90"/>
+<vertex x="5.4" y="-6.4" curve="90"/>
+<vertex x="4.95" y="-6.85"/>
+<vertex x="4.95" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="4.65" y="-7.6"/>
+<vertex x="4.65" y="-6.85" curve="90"/>
+<vertex x="4.2" y="-6.4" curve="90"/>
+<vertex x="3.75" y="-6.85"/>
+<vertex x="3.75" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="3.45" y="-7.6"/>
+<vertex x="3.45" y="-6.85" curve="90"/>
+<vertex x="3" y="-6.4" curve="90"/>
+<vertex x="2.55" y="-6.85"/>
+<vertex x="2.55" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="2.25" y="-7.6"/>
+<vertex x="2.25" y="-6.85" curve="90"/>
+<vertex x="1.8" y="-6.4" curve="90"/>
+<vertex x="1.35" y="-6.85"/>
+<vertex x="1.35" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="1.05" y="-7.6"/>
+<vertex x="1.05" y="-6.85" curve="90"/>
+<vertex x="0.6" y="-6.4" curve="90"/>
+<vertex x="0.15" y="-6.85"/>
+<vertex x="0.15" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-0.15" y="-7.6"/>
+<vertex x="-0.15" y="-6.85" curve="90"/>
+<vertex x="-0.6" y="-6.4" curve="90"/>
+<vertex x="-1.05" y="-6.85"/>
+<vertex x="-1.05" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-1.35" y="-7.6"/>
+<vertex x="-1.35" y="-6.85" curve="90"/>
+<vertex x="-1.8" y="-6.4" curve="90"/>
+<vertex x="-2.25" y="-6.85"/>
+<vertex x="-2.25" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-2.55" y="-7.6"/>
+<vertex x="-2.55" y="-6.85" curve="90"/>
+<vertex x="-3" y="-6.4" curve="90"/>
+<vertex x="-3.45" y="-6.85"/>
+<vertex x="-3.45" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-3.75" y="-7.6"/>
+<vertex x="-3.75" y="-6.85" curve="90"/>
+<vertex x="-4.2" y="-6.4" curve="90"/>
+<vertex x="-4.65" y="-6.85"/>
+<vertex x="-4.65" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-4.95" y="-7.6"/>
+<vertex x="-4.95" y="-6.85" curve="90"/>
+<vertex x="-5.4" y="-6.4" curve="90"/>
+<vertex x="-5.85" y="-6.85"/>
+<vertex x="-5.85" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-6.15" y="-7.6"/>
+<vertex x="-6.15" y="-6.85" curve="90"/>
+<vertex x="-6.6" y="-6.4" curve="90"/>
+<vertex x="-7.05" y="-6.85"/>
+<vertex x="-7.05" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-7.35" y="-7.6"/>
+<vertex x="-7.35" y="-6.85" curve="90"/>
+<vertex x="-7.8" y="-6.4" curve="90"/>
+<vertex x="-8.25" y="-6.85"/>
+<vertex x="-8.25" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-8.55" y="-7.6"/>
+<vertex x="-8.55" y="-6.85" curve="90"/>
+<vertex x="-9" y="-6.4" curve="90"/>
+<vertex x="-9.45" y="-6.85"/>
+<vertex x="-9.45" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-9.75" y="-7.6"/>
+<vertex x="-9.75" y="-6.85" curve="90"/>
+<vertex x="-10.2" y="-6.4" curve="90"/>
+<vertex x="-10.65" y="-6.85"/>
+<vertex x="-10.65" y="-7.6"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-9.75" y="6.85"/>
+<vertex x="-9.75" y="7.55" curve="90"/>
+<vertex x="-9.8" y="7.6"/>
+<vertex x="-10.6" y="7.6" curve="90"/>
+<vertex x="-10.65" y="7.55"/>
+<vertex x="-10.65" y="6.85" curve="90"/>
+<vertex x="-10.2" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-8.55" y="6.85"/>
+<vertex x="-8.55" y="7.55" curve="90"/>
+<vertex x="-8.6" y="7.6"/>
+<vertex x="-9.4" y="7.6" curve="90"/>
+<vertex x="-9.45" y="7.55"/>
+<vertex x="-9.45" y="6.85" curve="90"/>
+<vertex x="-9" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-7.35" y="6.85"/>
+<vertex x="-7.35" y="7.55" curve="90"/>
+<vertex x="-7.4" y="7.6"/>
+<vertex x="-8.2" y="7.6" curve="90"/>
+<vertex x="-8.25" y="7.55"/>
+<vertex x="-8.25" y="6.85" curve="90"/>
+<vertex x="-7.8" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-6.15" y="6.85"/>
+<vertex x="-6.15" y="7.55" curve="90"/>
+<vertex x="-6.2" y="7.6"/>
+<vertex x="-7" y="7.6" curve="90"/>
+<vertex x="-7.05" y="7.55"/>
+<vertex x="-7.05" y="6.85" curve="90"/>
+<vertex x="-6.6" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-4.95" y="6.85"/>
+<vertex x="-4.95" y="7.55" curve="90"/>
+<vertex x="-5" y="7.6"/>
+<vertex x="-5.8" y="7.6" curve="90"/>
+<vertex x="-5.85" y="7.55"/>
+<vertex x="-5.85" y="6.85" curve="90"/>
+<vertex x="-5.4" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-3.75" y="6.85"/>
+<vertex x="-3.75" y="7.55" curve="90"/>
+<vertex x="-3.8" y="7.6"/>
+<vertex x="-4.6" y="7.6" curve="90"/>
+<vertex x="-4.65" y="7.55"/>
+<vertex x="-4.65" y="6.85" curve="90"/>
+<vertex x="-4.2" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-2.55" y="6.85"/>
+<vertex x="-2.55" y="7.55" curve="90"/>
+<vertex x="-2.6" y="7.6"/>
+<vertex x="-3.4" y="7.6" curve="90"/>
+<vertex x="-3.45" y="7.55"/>
+<vertex x="-3.45" y="6.85" curve="90"/>
+<vertex x="-3" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-1.35" y="6.85"/>
+<vertex x="-1.35" y="7.55" curve="90"/>
+<vertex x="-1.4" y="7.6"/>
+<vertex x="-2.2" y="7.6" curve="90"/>
+<vertex x="-2.25" y="7.55"/>
+<vertex x="-2.25" y="6.85" curve="90"/>
+<vertex x="-1.8" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-0.15" y="6.85"/>
+<vertex x="-0.15" y="7.55" curve="90"/>
+<vertex x="-0.2" y="7.6"/>
+<vertex x="-1" y="7.6" curve="90"/>
+<vertex x="-1.05" y="7.55"/>
+<vertex x="-1.05" y="6.85" curve="90"/>
+<vertex x="-0.6" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="1.05" y="6.85"/>
+<vertex x="1.05" y="7.55" curve="90"/>
+<vertex x="1" y="7.6"/>
+<vertex x="0.2" y="7.6" curve="90"/>
+<vertex x="0.15" y="7.55"/>
+<vertex x="0.15" y="6.85" curve="90"/>
+<vertex x="0.6" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="2.25" y="6.85"/>
+<vertex x="2.25" y="7.55" curve="90"/>
+<vertex x="2.2" y="7.6"/>
+<vertex x="1.4" y="7.6" curve="90"/>
+<vertex x="1.35" y="7.55"/>
+<vertex x="1.35" y="6.85" curve="90"/>
+<vertex x="1.8" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="3.45" y="6.85"/>
+<vertex x="3.45" y="7.55" curve="90"/>
+<vertex x="3.4" y="7.6"/>
+<vertex x="2.6" y="7.6" curve="90"/>
+<vertex x="2.55" y="7.55"/>
+<vertex x="2.55" y="6.85" curve="90"/>
+<vertex x="3" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="4.65" y="6.85"/>
+<vertex x="4.65" y="7.55" curve="90"/>
+<vertex x="4.6" y="7.6"/>
+<vertex x="3.8" y="7.6" curve="90"/>
+<vertex x="3.75" y="7.55"/>
+<vertex x="3.75" y="6.85" curve="90"/>
+<vertex x="4.2" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="5.85" y="6.85"/>
+<vertex x="5.85" y="7.55" curve="90"/>
+<vertex x="5.8" y="7.6"/>
+<vertex x="5" y="7.6" curve="90"/>
+<vertex x="4.95" y="7.55"/>
+<vertex x="4.95" y="6.85" curve="90"/>
+<vertex x="5.4" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="7.05" y="6.85"/>
+<vertex x="7.05" y="7.55" curve="90"/>
+<vertex x="7" y="7.6"/>
+<vertex x="6.2" y="7.6" curve="90"/>
+<vertex x="6.15" y="7.55"/>
+<vertex x="6.15" y="6.85" curve="90"/>
+<vertex x="6.6" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="8.25" y="6.85"/>
+<vertex x="8.25" y="7.55" curve="90"/>
+<vertex x="8.2" y="7.6"/>
+<vertex x="7.4" y="7.6" curve="90"/>
+<vertex x="7.35" y="7.55"/>
+<vertex x="7.35" y="6.85" curve="90"/>
+<vertex x="7.8" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="9.45" y="6.85"/>
+<vertex x="9.45" y="7.55" curve="90"/>
+<vertex x="9.4" y="7.6"/>
+<vertex x="8.6" y="7.6" curve="90"/>
+<vertex x="8.55" y="7.55"/>
+<vertex x="8.55" y="6.85" curve="90"/>
+<vertex x="9" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="10.65" y="6.85"/>
+<vertex x="10.65" y="7.55" curve="90"/>
+<vertex x="10.6" y="7.6"/>
+<vertex x="9.8" y="7.6" curve="90"/>
+<vertex x="9.75" y="7.55"/>
+<vertex x="9.75" y="6.85" curve="90"/>
+<vertex x="10.2" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="9.75" y="-6.85"/>
+<vertex x="9.75" y="-7.55" curve="90"/>
+<vertex x="9.8" y="-7.6"/>
+<vertex x="10.6" y="-7.6" curve="90"/>
+<vertex x="10.65" y="-7.55"/>
+<vertex x="10.65" y="-6.85" curve="90"/>
+<vertex x="10.2" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="8.55" y="-6.85"/>
+<vertex x="8.55" y="-7.55" curve="90"/>
+<vertex x="8.6" y="-7.6"/>
+<vertex x="9.4" y="-7.6" curve="90"/>
+<vertex x="9.45" y="-7.55"/>
+<vertex x="9.45" y="-6.85" curve="90"/>
+<vertex x="9" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="7.35" y="-6.85"/>
+<vertex x="7.35" y="-7.55" curve="90"/>
+<vertex x="7.4" y="-7.6"/>
+<vertex x="8.2" y="-7.6" curve="90"/>
+<vertex x="8.25" y="-7.55"/>
+<vertex x="8.25" y="-6.85" curve="90"/>
+<vertex x="7.8" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="6.15" y="-6.85"/>
+<vertex x="6.15" y="-7.55" curve="90"/>
+<vertex x="6.2" y="-7.6"/>
+<vertex x="7" y="-7.6" curve="90"/>
+<vertex x="7.05" y="-7.55"/>
+<vertex x="7.05" y="-6.85" curve="90"/>
+<vertex x="6.6" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="4.95" y="-6.85"/>
+<vertex x="4.95" y="-7.55" curve="90"/>
+<vertex x="5" y="-7.6"/>
+<vertex x="5.8" y="-7.6" curve="90"/>
+<vertex x="5.85" y="-7.55"/>
+<vertex x="5.85" y="-6.85" curve="90"/>
+<vertex x="5.4" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="3.75" y="-6.85"/>
+<vertex x="3.75" y="-7.55" curve="90"/>
+<vertex x="3.8" y="-7.6"/>
+<vertex x="4.6" y="-7.6" curve="90"/>
+<vertex x="4.65" y="-7.55"/>
+<vertex x="4.65" y="-6.85" curve="90"/>
+<vertex x="4.2" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="2.55" y="-6.85"/>
+<vertex x="2.55" y="-7.55" curve="90"/>
+<vertex x="2.6" y="-7.6"/>
+<vertex x="3.4" y="-7.6" curve="90"/>
+<vertex x="3.45" y="-7.55"/>
+<vertex x="3.45" y="-6.85" curve="90"/>
+<vertex x="3" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="1.35" y="-6.85"/>
+<vertex x="1.35" y="-7.55" curve="90"/>
+<vertex x="1.4" y="-7.6"/>
+<vertex x="2.2" y="-7.6" curve="90"/>
+<vertex x="2.25" y="-7.55"/>
+<vertex x="2.25" y="-6.85" curve="90"/>
+<vertex x="1.8" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="0.15" y="-6.85"/>
+<vertex x="0.15" y="-7.55" curve="90"/>
+<vertex x="0.2" y="-7.6"/>
+<vertex x="1" y="-7.6" curve="90"/>
+<vertex x="1.05" y="-7.55"/>
+<vertex x="1.05" y="-6.85" curve="90"/>
+<vertex x="0.6" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-1.05" y="-6.85"/>
+<vertex x="-1.05" y="-7.55" curve="90"/>
+<vertex x="-1" y="-7.6"/>
+<vertex x="-0.2" y="-7.6" curve="90"/>
+<vertex x="-0.15" y="-7.55"/>
+<vertex x="-0.15" y="-6.85" curve="90"/>
+<vertex x="-0.6" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-2.25" y="-6.85"/>
+<vertex x="-2.25" y="-7.55" curve="90"/>
+<vertex x="-2.2" y="-7.6"/>
+<vertex x="-1.4" y="-7.6" curve="90"/>
+<vertex x="-1.35" y="-7.55"/>
+<vertex x="-1.35" y="-6.85" curve="90"/>
+<vertex x="-1.8" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-3.45" y="-6.85"/>
+<vertex x="-3.45" y="-7.55" curve="90"/>
+<vertex x="-3.4" y="-7.6"/>
+<vertex x="-2.6" y="-7.6" curve="90"/>
+<vertex x="-2.55" y="-7.55"/>
+<vertex x="-2.55" y="-6.85" curve="90"/>
+<vertex x="-3" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-4.65" y="-6.85"/>
+<vertex x="-4.65" y="-7.55" curve="90"/>
+<vertex x="-4.6" y="-7.6"/>
+<vertex x="-3.8" y="-7.6" curve="90"/>
+<vertex x="-3.75" y="-7.55"/>
+<vertex x="-3.75" y="-6.85" curve="90"/>
+<vertex x="-4.2" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-5.85" y="-6.85"/>
+<vertex x="-5.85" y="-7.55" curve="90"/>
+<vertex x="-5.8" y="-7.6"/>
+<vertex x="-5" y="-7.6" curve="90"/>
+<vertex x="-4.95" y="-7.55"/>
+<vertex x="-4.95" y="-6.85" curve="90"/>
+<vertex x="-5.4" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-7.05" y="-6.85"/>
+<vertex x="-7.05" y="-7.55" curve="90"/>
+<vertex x="-7" y="-7.6"/>
+<vertex x="-6.2" y="-7.6" curve="90"/>
+<vertex x="-6.15" y="-7.55"/>
+<vertex x="-6.15" y="-6.85" curve="90"/>
+<vertex x="-6.6" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-8.25" y="-6.85"/>
+<vertex x="-8.25" y="-7.55" curve="90"/>
+<vertex x="-8.2" y="-7.6"/>
+<vertex x="-7.4" y="-7.6" curve="90"/>
+<vertex x="-7.35" y="-7.55"/>
+<vertex x="-7.35" y="-6.85" curve="90"/>
+<vertex x="-7.8" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-9.45" y="-6.85"/>
+<vertex x="-9.45" y="-7.55" curve="90"/>
+<vertex x="-9.4" y="-7.6"/>
+<vertex x="-8.6" y="-7.6" curve="90"/>
+<vertex x="-8.55" y="-7.55"/>
+<vertex x="-8.55" y="-6.85" curve="90"/>
+<vertex x="-9" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-10.65" y="-6.85"/>
+<vertex x="-10.65" y="-7.55" curve="90"/>
+<vertex x="-10.6" y="-7.6"/>
+<vertex x="-9.8" y="-7.6" curve="90"/>
+<vertex x="-9.75" y="-7.55"/>
+<vertex x="-9.75" y="-6.85" curve="90"/>
+<vertex x="-10.2" y="-6.4" curve="90"/>
+</polygon>
+<wire x1="-11.65" y1="-6.9" x2="-11.65" y2="-7.9" width="0.2" layer="29"/>
+<wire x1="-11.65" y1="-7.9" x2="-10.65" y2="-7.9" width="0.2" layer="29"/>
+<wire x1="11.65" y1="6.9" x2="11.65" y2="7.9" width="0.2" layer="29"/>
+<wire x1="11.65" y1="7.9" x2="10.65" y2="7.9" width="0.2" layer="29"/>
+<wire x1="-11.15" y1="7.4" x2="-10.85" y2="7.4" width="0.15" layer="21"/>
+<wire x1="11.15" y1="7.4" x2="10.85" y2="7.4" width="0.15" layer="21"/>
+<wire x1="-11.15" y1="-7.4" x2="-10.85" y2="-7.4" width="0.15" layer="21"/>
+<wire x1="11.15" y1="-7.4" x2="10.85" y2="-7.4" width="0.15" layer="21"/>
+<wire x1="0" y1="0.5" x2="0" y2="-0.5" width="0.05" layer="23"/>
+<wire x1="0.5" y1="0" x2="-0.5" y2="0" width="0.05" layer="23"/>
+</package>
+<package name="ODIN-88">
+<description>&lt;b&gt;ODIN-W26x:&lt;/b&gt; 88 pin&lt;p&gt;
+&lt;a href="http://www.u-blox.com"&gt;u-blox.com&lt;/a&gt;</description>
+<text x="-11.15" y="8.6" size="1.5" layer="25">&gt;NAME</text>
+<text x="-11.15" y="-9.9" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-12.15" y1="8.4" x2="-12.15" y2="-8.4" width="0.1" layer="39"/>
+<wire x1="-12.15" y1="-8.4" x2="12.15" y2="-8.4" width="0.1" layer="39"/>
+<wire x1="12.15" y1="-8.4" x2="12.15" y2="8.4" width="0.1" layer="39"/>
+<wire x1="12.15" y1="8.4" x2="-12.15" y2="8.4" width="0.1" layer="39"/>
+<circle x="-12.15" y="-8.4" radius="0.25" width="0.75" layer="21"/>
+<circle x="-3" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="A7" x="-3" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="-1.8" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="A8" x="-1.8" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="-0.6" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="A9" x="-0.6" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="0.6" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="A10" x="0.6" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="1.8" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="A11" x="1.8" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="3" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="A12" x="3" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="4.2" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="A13" x="4.2" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="5.4" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="A14" x="5.4" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="6.6" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="A15" x="6.6" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="7.8" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="A16" x="7.8" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="9" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="A17" x="9" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="10.2" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="A18" x="10.2" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="-10.2" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="A1" x="-10.2" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="-9" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="A2" x="-9" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="-7.8" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="A3" x="-7.8" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="-6.6" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="A4" x="-6.6" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="-5.4" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="A5" x="-5.4" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="-4.2" y="-6.85" radius="0.45" width="0" layer="1"/>
+<smd name="A6" x="-4.2" y="-7.225" dx="0.9" dy="0.75" layer="1" roundness="15" stop="no" cream="no"/>
+<circle x="3" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="C7" x="3" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="1.8" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="C8" x="1.8" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="0.6" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="C9" x="0.6" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="-0.6" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="C10" x="-0.6" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="-1.8" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="C11" x="-1.8" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="-3" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="C12" x="-3" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="-4.2" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="C13" x="-4.2" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="-5.4" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="C14" x="-5.4" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="-6.6" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="C15" x="-6.6" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="-7.8" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="C16" x="-7.8" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="-9" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="C17" x="-9" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="-10.2" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="C18" x="-10.2" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="10.2" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="C1" x="10.2" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="9" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="C2" x="9" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="7.8" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="C3" x="7.8" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="6.6" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="C4" x="6.6" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="5.4" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="C5" x="5.4" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<circle x="4.2" y="6.85" radius="0.45" width="0" layer="1"/>
+<smd name="C6" x="4.2" y="7.225" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
+<smd name="1" x="6.6" y="-5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="2" x="7.8" y="-5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="3" x="9" y="-5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="4" x="10.2" y="-5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="16" x="6.6" y="5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="15" x="7.8" y="5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="14" x="9" y="5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="13" x="10.2" y="5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="TP12" x="-10.21" y="5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="TP10" x="-7.67" y="5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="TP8" x="-5.13" y="5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="TP6" x="-2.59" y="5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="TP4" x="-0.05" y="5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="TP11" x="-10.21" y="-5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="TP9" x="-7.67" y="-5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="TP7" x="-5.13" y="-5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="TP5" x="-2.59" y="-5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="TP3" x="-0.05" y="-5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="31" x="-3.6" y="0" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="32" x="-1.8" y="0" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="38" x="5.4" y="1.54" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="25" x="-3.6" y="-1.54" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="26" x="-1.8" y="-1.54" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="27" x="0" y="-1.54" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="28" x="1.8" y="-1.54" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="34" x="-3.6" y="1.54" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="35" x="-1.8" y="1.54" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="36" x="0" y="1.54" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="37" x="1.8" y="1.54" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="29" x="5.4" y="-1.54" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="39" x="7.2" y="0.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="30" x="7.2" y="-0.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="33" x="0" y="0" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<polygon width="0.2" layer="29">
+<vertex x="-10.65" y="7.6"/>
+<vertex x="-10.65" y="6.85" curve="90"/>
+<vertex x="-10.2" y="6.4" curve="90"/>
+<vertex x="-9.75" y="6.85"/>
+<vertex x="-9.75" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-9.45" y="7.6"/>
+<vertex x="-9.45" y="6.85" curve="90"/>
+<vertex x="-9" y="6.4" curve="90"/>
+<vertex x="-8.55" y="6.85"/>
+<vertex x="-8.55" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-8.25" y="7.6"/>
+<vertex x="-8.25" y="6.85" curve="90"/>
+<vertex x="-7.8" y="6.4" curve="90"/>
+<vertex x="-7.35" y="6.85"/>
+<vertex x="-7.35" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-7.05" y="7.6"/>
+<vertex x="-7.05" y="6.85" curve="90"/>
+<vertex x="-6.6" y="6.4" curve="90"/>
+<vertex x="-6.15" y="6.85"/>
+<vertex x="-6.15" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-5.85" y="7.6"/>
+<vertex x="-5.85" y="6.85" curve="90"/>
+<vertex x="-5.4" y="6.4" curve="90"/>
+<vertex x="-4.95" y="6.85"/>
+<vertex x="-4.95" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-4.65" y="7.6"/>
+<vertex x="-4.65" y="6.85" curve="90"/>
+<vertex x="-4.2" y="6.4" curve="90"/>
+<vertex x="-3.75" y="6.85"/>
+<vertex x="-3.75" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-3.45" y="7.6"/>
+<vertex x="-3.45" y="6.85" curve="90"/>
+<vertex x="-3" y="6.4" curve="90"/>
+<vertex x="-2.55" y="6.85"/>
+<vertex x="-2.55" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-2.25" y="7.6"/>
+<vertex x="-2.25" y="6.85" curve="90"/>
+<vertex x="-1.8" y="6.4" curve="90"/>
+<vertex x="-1.35" y="6.85"/>
+<vertex x="-1.35" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-1.05" y="7.6"/>
+<vertex x="-1.05" y="6.85" curve="90"/>
+<vertex x="-0.6" y="6.4" curve="90"/>
+<vertex x="-0.15" y="6.85"/>
+<vertex x="-0.15" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="0.15" y="7.6"/>
+<vertex x="0.15" y="6.85" curve="90"/>
+<vertex x="0.6" y="6.4" curve="90"/>
+<vertex x="1.05" y="6.85"/>
+<vertex x="1.05" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="1.35" y="7.6"/>
+<vertex x="1.35" y="6.85" curve="90"/>
+<vertex x="1.8" y="6.4" curve="90"/>
+<vertex x="2.25" y="6.85"/>
+<vertex x="2.25" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="2.55" y="7.6"/>
+<vertex x="2.55" y="6.85" curve="90"/>
+<vertex x="3" y="6.4" curve="90"/>
+<vertex x="3.45" y="6.85"/>
+<vertex x="3.45" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="3.75" y="7.6"/>
+<vertex x="3.75" y="6.85" curve="90"/>
+<vertex x="4.2" y="6.4" curve="90"/>
+<vertex x="4.65" y="6.85"/>
+<vertex x="4.65" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="4.95" y="7.6"/>
+<vertex x="4.95" y="6.85" curve="90"/>
+<vertex x="5.4" y="6.4" curve="90"/>
+<vertex x="5.85" y="6.85"/>
+<vertex x="5.85" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="6.15" y="7.6"/>
+<vertex x="6.15" y="6.85" curve="90"/>
+<vertex x="6.6" y="6.4" curve="90"/>
+<vertex x="7.05" y="6.85"/>
+<vertex x="7.05" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="7.35" y="7.6"/>
+<vertex x="7.35" y="6.85" curve="90"/>
+<vertex x="7.8" y="6.4" curve="90"/>
+<vertex x="8.25" y="6.85"/>
+<vertex x="8.25" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="8.55" y="7.6"/>
+<vertex x="8.55" y="6.85" curve="90"/>
+<vertex x="9" y="6.4" curve="90"/>
+<vertex x="9.45" y="6.85"/>
+<vertex x="9.45" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="9.75" y="7.6"/>
+<vertex x="9.75" y="6.85" curve="90"/>
+<vertex x="10.2" y="6.4" curve="90"/>
+<vertex x="10.65" y="6.85"/>
+<vertex x="10.65" y="7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="10.65" y="-7.6"/>
+<vertex x="10.65" y="-6.85" curve="90"/>
+<vertex x="10.2" y="-6.4" curve="90"/>
+<vertex x="9.75" y="-6.85"/>
+<vertex x="9.75" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="9.45" y="-7.6"/>
+<vertex x="9.45" y="-6.85" curve="90"/>
+<vertex x="9" y="-6.4" curve="90"/>
+<vertex x="8.55" y="-6.85"/>
+<vertex x="8.55" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="8.25" y="-7.6"/>
+<vertex x="8.25" y="-6.85" curve="90"/>
+<vertex x="7.8" y="-6.4" curve="90"/>
+<vertex x="7.35" y="-6.85"/>
+<vertex x="7.35" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="7.05" y="-7.6"/>
+<vertex x="7.05" y="-6.85" curve="90"/>
+<vertex x="6.6" y="-6.4" curve="90"/>
+<vertex x="6.15" y="-6.85"/>
+<vertex x="6.15" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="5.85" y="-7.6"/>
+<vertex x="5.85" y="-6.85" curve="90"/>
+<vertex x="5.4" y="-6.4" curve="90"/>
+<vertex x="4.95" y="-6.85"/>
+<vertex x="4.95" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="4.65" y="-7.6"/>
+<vertex x="4.65" y="-6.85" curve="90"/>
+<vertex x="4.2" y="-6.4" curve="90"/>
+<vertex x="3.75" y="-6.85"/>
+<vertex x="3.75" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="3.45" y="-7.6"/>
+<vertex x="3.45" y="-6.85" curve="90"/>
+<vertex x="3" y="-6.4" curve="90"/>
+<vertex x="2.55" y="-6.85"/>
+<vertex x="2.55" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="2.25" y="-7.6"/>
+<vertex x="2.25" y="-6.85" curve="90"/>
+<vertex x="1.8" y="-6.4" curve="90"/>
+<vertex x="1.35" y="-6.85"/>
+<vertex x="1.35" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="1.05" y="-7.6"/>
+<vertex x="1.05" y="-6.85" curve="90"/>
+<vertex x="0.6" y="-6.4" curve="90"/>
+<vertex x="0.15" y="-6.85"/>
+<vertex x="0.15" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-0.15" y="-7.6"/>
+<vertex x="-0.15" y="-6.85" curve="90"/>
+<vertex x="-0.6" y="-6.4" curve="90"/>
+<vertex x="-1.05" y="-6.85"/>
+<vertex x="-1.05" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-1.35" y="-7.6"/>
+<vertex x="-1.35" y="-6.85" curve="90"/>
+<vertex x="-1.8" y="-6.4" curve="90"/>
+<vertex x="-2.25" y="-6.85"/>
+<vertex x="-2.25" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-2.55" y="-7.6"/>
+<vertex x="-2.55" y="-6.85" curve="90"/>
+<vertex x="-3" y="-6.4" curve="90"/>
+<vertex x="-3.45" y="-6.85"/>
+<vertex x="-3.45" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-3.75" y="-7.6"/>
+<vertex x="-3.75" y="-6.85" curve="90"/>
+<vertex x="-4.2" y="-6.4" curve="90"/>
+<vertex x="-4.65" y="-6.85"/>
+<vertex x="-4.65" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-4.95" y="-7.6"/>
+<vertex x="-4.95" y="-6.85" curve="90"/>
+<vertex x="-5.4" y="-6.4" curve="90"/>
+<vertex x="-5.85" y="-6.85"/>
+<vertex x="-5.85" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-6.15" y="-7.6"/>
+<vertex x="-6.15" y="-6.85" curve="90"/>
+<vertex x="-6.6" y="-6.4" curve="90"/>
+<vertex x="-7.05" y="-6.85"/>
+<vertex x="-7.05" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-7.35" y="-7.6"/>
+<vertex x="-7.35" y="-6.85" curve="90"/>
+<vertex x="-7.8" y="-6.4" curve="90"/>
+<vertex x="-8.25" y="-6.85"/>
+<vertex x="-8.25" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-8.55" y="-7.6"/>
+<vertex x="-8.55" y="-6.85" curve="90"/>
+<vertex x="-9" y="-6.4" curve="90"/>
+<vertex x="-9.45" y="-6.85"/>
+<vertex x="-9.45" y="-7.6"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-9.75" y="-7.6"/>
+<vertex x="-9.75" y="-6.85" curve="90"/>
+<vertex x="-10.2" y="-6.4" curve="90"/>
+<vertex x="-10.65" y="-6.85"/>
+<vertex x="-10.65" y="-7.6"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-9.75" y="6.85"/>
+<vertex x="-9.75" y="7.55" curve="90"/>
+<vertex x="-9.8" y="7.6"/>
+<vertex x="-10.6" y="7.6" curve="90"/>
+<vertex x="-10.65" y="7.55"/>
+<vertex x="-10.65" y="6.85" curve="90"/>
+<vertex x="-10.2" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-8.55" y="6.85"/>
+<vertex x="-8.55" y="7.55" curve="90"/>
+<vertex x="-8.6" y="7.6"/>
+<vertex x="-9.4" y="7.6" curve="90"/>
+<vertex x="-9.45" y="7.55"/>
+<vertex x="-9.45" y="6.85" curve="90"/>
+<vertex x="-9" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-7.35" y="6.85"/>
+<vertex x="-7.35" y="7.55" curve="90"/>
+<vertex x="-7.4" y="7.6"/>
+<vertex x="-8.2" y="7.6" curve="90"/>
+<vertex x="-8.25" y="7.55"/>
+<vertex x="-8.25" y="6.85" curve="90"/>
+<vertex x="-7.8" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-6.15" y="6.85"/>
+<vertex x="-6.15" y="7.55" curve="90"/>
+<vertex x="-6.2" y="7.6"/>
+<vertex x="-7" y="7.6" curve="90"/>
+<vertex x="-7.05" y="7.55"/>
+<vertex x="-7.05" y="6.85" curve="90"/>
+<vertex x="-6.6" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-4.95" y="6.85"/>
+<vertex x="-4.95" y="7.55" curve="90"/>
+<vertex x="-5" y="7.6"/>
+<vertex x="-5.8" y="7.6" curve="90"/>
+<vertex x="-5.85" y="7.55"/>
+<vertex x="-5.85" y="6.85" curve="90"/>
+<vertex x="-5.4" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-3.75" y="6.85"/>
+<vertex x="-3.75" y="7.55" curve="90"/>
+<vertex x="-3.8" y="7.6"/>
+<vertex x="-4.6" y="7.6" curve="90"/>
+<vertex x="-4.65" y="7.55"/>
+<vertex x="-4.65" y="6.85" curve="90"/>
+<vertex x="-4.2" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-2.55" y="6.85"/>
+<vertex x="-2.55" y="7.55" curve="90"/>
+<vertex x="-2.6" y="7.6"/>
+<vertex x="-3.4" y="7.6" curve="90"/>
+<vertex x="-3.45" y="7.55"/>
+<vertex x="-3.45" y="6.85" curve="90"/>
+<vertex x="-3" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-1.35" y="6.85"/>
+<vertex x="-1.35" y="7.55" curve="90"/>
+<vertex x="-1.4" y="7.6"/>
+<vertex x="-2.2" y="7.6" curve="90"/>
+<vertex x="-2.25" y="7.55"/>
+<vertex x="-2.25" y="6.85" curve="90"/>
+<vertex x="-1.8" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-0.15" y="6.85"/>
+<vertex x="-0.15" y="7.55" curve="90"/>
+<vertex x="-0.2" y="7.6"/>
+<vertex x="-1" y="7.6" curve="90"/>
+<vertex x="-1.05" y="7.55"/>
+<vertex x="-1.05" y="6.85" curve="90"/>
+<vertex x="-0.6" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="1.05" y="6.85"/>
+<vertex x="1.05" y="7.55" curve="90"/>
+<vertex x="1" y="7.6"/>
+<vertex x="0.2" y="7.6" curve="90"/>
+<vertex x="0.15" y="7.55"/>
+<vertex x="0.15" y="6.85" curve="90"/>
+<vertex x="0.6" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="2.25" y="6.85"/>
+<vertex x="2.25" y="7.55" curve="90"/>
+<vertex x="2.2" y="7.6"/>
+<vertex x="1.4" y="7.6" curve="90"/>
+<vertex x="1.35" y="7.55"/>
+<vertex x="1.35" y="6.85" curve="90"/>
+<vertex x="1.8" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="3.45" y="6.85"/>
+<vertex x="3.45" y="7.55" curve="90"/>
+<vertex x="3.4" y="7.6"/>
+<vertex x="2.6" y="7.6" curve="90"/>
+<vertex x="2.55" y="7.55"/>
+<vertex x="2.55" y="6.85" curve="90"/>
+<vertex x="3" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="4.65" y="6.85"/>
+<vertex x="4.65" y="7.55" curve="90"/>
+<vertex x="4.6" y="7.6"/>
+<vertex x="3.8" y="7.6" curve="90"/>
+<vertex x="3.75" y="7.55"/>
+<vertex x="3.75" y="6.85" curve="90"/>
+<vertex x="4.2" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="5.85" y="6.85"/>
+<vertex x="5.85" y="7.55" curve="90"/>
+<vertex x="5.8" y="7.6"/>
+<vertex x="5" y="7.6" curve="90"/>
+<vertex x="4.95" y="7.55"/>
+<vertex x="4.95" y="6.85" curve="90"/>
+<vertex x="5.4" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="7.05" y="6.85"/>
+<vertex x="7.05" y="7.55" curve="90"/>
+<vertex x="7" y="7.6"/>
+<vertex x="6.2" y="7.6" curve="90"/>
+<vertex x="6.15" y="7.55"/>
+<vertex x="6.15" y="6.85" curve="90"/>
+<vertex x="6.6" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="8.25" y="6.85"/>
+<vertex x="8.25" y="7.55" curve="90"/>
+<vertex x="8.2" y="7.6"/>
+<vertex x="7.4" y="7.6" curve="90"/>
+<vertex x="7.35" y="7.55"/>
+<vertex x="7.35" y="6.85" curve="90"/>
+<vertex x="7.8" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="9.45" y="6.85"/>
+<vertex x="9.45" y="7.55" curve="90"/>
+<vertex x="9.4" y="7.6"/>
+<vertex x="8.6" y="7.6" curve="90"/>
+<vertex x="8.55" y="7.55"/>
+<vertex x="8.55" y="6.85" curve="90"/>
+<vertex x="9" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="10.65" y="6.85"/>
+<vertex x="10.65" y="7.55" curve="90"/>
+<vertex x="10.6" y="7.6"/>
+<vertex x="9.8" y="7.6" curve="90"/>
+<vertex x="9.75" y="7.55"/>
+<vertex x="9.75" y="6.85" curve="90"/>
+<vertex x="10.2" y="6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="9.75" y="-6.85"/>
+<vertex x="9.75" y="-7.55" curve="90"/>
+<vertex x="9.8" y="-7.6"/>
+<vertex x="10.6" y="-7.6" curve="90"/>
+<vertex x="10.65" y="-7.55"/>
+<vertex x="10.65" y="-6.85" curve="90"/>
+<vertex x="10.2" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="8.55" y="-6.85"/>
+<vertex x="8.55" y="-7.55" curve="90"/>
+<vertex x="8.6" y="-7.6"/>
+<vertex x="9.4" y="-7.6" curve="90"/>
+<vertex x="9.45" y="-7.55"/>
+<vertex x="9.45" y="-6.85" curve="90"/>
+<vertex x="9" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="7.35" y="-6.85"/>
+<vertex x="7.35" y="-7.55" curve="90"/>
+<vertex x="7.4" y="-7.6"/>
+<vertex x="8.2" y="-7.6" curve="90"/>
+<vertex x="8.25" y="-7.55"/>
+<vertex x="8.25" y="-6.85" curve="90"/>
+<vertex x="7.8" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="6.15" y="-6.85"/>
+<vertex x="6.15" y="-7.55" curve="90"/>
+<vertex x="6.2" y="-7.6"/>
+<vertex x="7" y="-7.6" curve="90"/>
+<vertex x="7.05" y="-7.55"/>
+<vertex x="7.05" y="-6.85" curve="90"/>
+<vertex x="6.6" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="4.95" y="-6.85"/>
+<vertex x="4.95" y="-7.55" curve="90"/>
+<vertex x="5" y="-7.6"/>
+<vertex x="5.8" y="-7.6" curve="90"/>
+<vertex x="5.85" y="-7.55"/>
+<vertex x="5.85" y="-6.85" curve="90"/>
+<vertex x="5.4" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="3.75" y="-6.85"/>
+<vertex x="3.75" y="-7.55" curve="90"/>
+<vertex x="3.8" y="-7.6"/>
+<vertex x="4.6" y="-7.6" curve="90"/>
+<vertex x="4.65" y="-7.55"/>
+<vertex x="4.65" y="-6.85" curve="90"/>
+<vertex x="4.2" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="2.55" y="-6.85"/>
+<vertex x="2.55" y="-7.55" curve="90"/>
+<vertex x="2.6" y="-7.6"/>
+<vertex x="3.4" y="-7.6" curve="90"/>
+<vertex x="3.45" y="-7.55"/>
+<vertex x="3.45" y="-6.85" curve="90"/>
+<vertex x="3" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="1.35" y="-6.85"/>
+<vertex x="1.35" y="-7.55" curve="90"/>
+<vertex x="1.4" y="-7.6"/>
+<vertex x="2.2" y="-7.6" curve="90"/>
+<vertex x="2.25" y="-7.55"/>
+<vertex x="2.25" y="-6.85" curve="90"/>
+<vertex x="1.8" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="0.15" y="-6.85"/>
+<vertex x="0.15" y="-7.55" curve="90"/>
+<vertex x="0.2" y="-7.6"/>
+<vertex x="1" y="-7.6" curve="90"/>
+<vertex x="1.05" y="-7.55"/>
+<vertex x="1.05" y="-6.85" curve="90"/>
+<vertex x="0.6" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-1.05" y="-6.85"/>
+<vertex x="-1.05" y="-7.55" curve="90"/>
+<vertex x="-1" y="-7.6"/>
+<vertex x="-0.2" y="-7.6" curve="90"/>
+<vertex x="-0.15" y="-7.55"/>
+<vertex x="-0.15" y="-6.85" curve="90"/>
+<vertex x="-0.6" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-2.25" y="-6.85"/>
+<vertex x="-2.25" y="-7.55" curve="90"/>
+<vertex x="-2.2" y="-7.6"/>
+<vertex x="-1.4" y="-7.6" curve="90"/>
+<vertex x="-1.35" y="-7.55"/>
+<vertex x="-1.35" y="-6.85" curve="90"/>
+<vertex x="-1.8" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-3.45" y="-6.85"/>
+<vertex x="-3.45" y="-7.55" curve="90"/>
+<vertex x="-3.4" y="-7.6"/>
+<vertex x="-2.6" y="-7.6" curve="90"/>
+<vertex x="-2.55" y="-7.55"/>
+<vertex x="-2.55" y="-6.85" curve="90"/>
+<vertex x="-3" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-4.65" y="-6.85"/>
+<vertex x="-4.65" y="-7.55" curve="90"/>
+<vertex x="-4.6" y="-7.6"/>
+<vertex x="-3.8" y="-7.6" curve="90"/>
+<vertex x="-3.75" y="-7.55"/>
+<vertex x="-3.75" y="-6.85" curve="90"/>
+<vertex x="-4.2" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-5.85" y="-6.85"/>
+<vertex x="-5.85" y="-7.55" curve="90"/>
+<vertex x="-5.8" y="-7.6"/>
+<vertex x="-5" y="-7.6" curve="90"/>
+<vertex x="-4.95" y="-7.55"/>
+<vertex x="-4.95" y="-6.85" curve="90"/>
+<vertex x="-5.4" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-7.05" y="-6.85"/>
+<vertex x="-7.05" y="-7.55" curve="90"/>
+<vertex x="-7" y="-7.6"/>
+<vertex x="-6.2" y="-7.6" curve="90"/>
+<vertex x="-6.15" y="-7.55"/>
+<vertex x="-6.15" y="-6.85" curve="90"/>
+<vertex x="-6.6" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-8.25" y="-6.85"/>
+<vertex x="-8.25" y="-7.55" curve="90"/>
+<vertex x="-8.2" y="-7.6"/>
+<vertex x="-7.4" y="-7.6" curve="90"/>
+<vertex x="-7.35" y="-7.55"/>
+<vertex x="-7.35" y="-6.85" curve="90"/>
+<vertex x="-7.8" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-9.45" y="-6.85"/>
+<vertex x="-9.45" y="-7.55" curve="90"/>
+<vertex x="-9.4" y="-7.6"/>
+<vertex x="-8.6" y="-7.6" curve="90"/>
+<vertex x="-8.55" y="-7.55"/>
+<vertex x="-8.55" y="-6.85" curve="90"/>
+<vertex x="-9" y="-6.4" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-10.65" y="-6.85"/>
+<vertex x="-10.65" y="-7.55" curve="90"/>
+<vertex x="-10.6" y="-7.6"/>
+<vertex x="-9.8" y="-7.6" curve="90"/>
+<vertex x="-9.75" y="-7.55"/>
+<vertex x="-9.75" y="-6.85" curve="90"/>
+<vertex x="-10.2" y="-6.4" curve="90"/>
+</polygon>
+<circle x="-10.6" y="4.2" radius="0.45" width="0" layer="1"/>
+<smd name="D1" x="-10.975" y="4.2" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R270" stop="no" cream="no"/>
+<circle x="-10.6" y="3" radius="0.45" width="0" layer="1"/>
+<smd name="D2" x="-10.975" y="3" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R270" stop="no" cream="no"/>
+<circle x="-10.6" y="1.8" radius="0.45" width="0" layer="1"/>
+<smd name="D3" x="-10.975" y="1.8" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R270" stop="no" cream="no"/>
+<circle x="-10.6" y="0.6" radius="0.45" width="0" layer="1"/>
+<smd name="D4" x="-10.975" y="0.6" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R270" stop="no" cream="no"/>
+<smd name="17" x="-9.45" y="4.2" dx="0.8" dy="0.8" layer="1" roundness="100" rot="R270"/>
+<smd name="18" x="-9.45" y="3" dx="0.8" dy="0.8" layer="1" roundness="100" rot="R270"/>
+<smd name="19" x="-9.45" y="1.8" dx="0.8" dy="0.8" layer="1" roundness="100" rot="R270"/>
+<smd name="20" x="-9.45" y="0.6" dx="0.8" dy="0.8" layer="1" roundness="100" rot="R270"/>
+<polygon width="0.2" layer="29">
+<vertex x="-11.35" y="0.15"/>
+<vertex x="-10.6" y="0.15" curve="90"/>
+<vertex x="-10.15" y="0.6" curve="90"/>
+<vertex x="-10.6" y="1.05"/>
+<vertex x="-11.35" y="1.05"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-11.35" y="1.35"/>
+<vertex x="-10.6" y="1.35" curve="90"/>
+<vertex x="-10.15" y="1.8" curve="90"/>
+<vertex x="-10.6" y="2.25"/>
+<vertex x="-11.35" y="2.25"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-11.35" y="2.55"/>
+<vertex x="-10.6" y="2.55" curve="90"/>
+<vertex x="-10.15" y="3" curve="90"/>
+<vertex x="-10.6" y="3.45"/>
+<vertex x="-11.35" y="3.45"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-11.35" y="3.75"/>
+<vertex x="-10.6" y="3.75" curve="90"/>
+<vertex x="-10.15" y="4.2" curve="90"/>
+<vertex x="-10.6" y="4.65"/>
+<vertex x="-11.35" y="4.65"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-10.6" y="1.05"/>
+<vertex x="-11.3" y="1.05" curve="90"/>
+<vertex x="-11.35" y="1"/>
+<vertex x="-11.35" y="0.2" curve="90"/>
+<vertex x="-11.3" y="0.15"/>
+<vertex x="-10.6" y="0.15" curve="90"/>
+<vertex x="-10.15" y="0.6" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-10.6" y="2.25"/>
+<vertex x="-11.3" y="2.25" curve="90"/>
+<vertex x="-11.35" y="2.2"/>
+<vertex x="-11.35" y="1.4" curve="90"/>
+<vertex x="-11.3" y="1.35"/>
+<vertex x="-10.6" y="1.35" curve="90"/>
+<vertex x="-10.15" y="1.8" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-10.6" y="3.45"/>
+<vertex x="-11.3" y="3.45" curve="90"/>
+<vertex x="-11.35" y="3.4"/>
+<vertex x="-11.35" y="2.6" curve="90"/>
+<vertex x="-11.3" y="2.55"/>
+<vertex x="-10.6" y="2.55" curve="90"/>
+<vertex x="-10.15" y="3" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-10.6" y="4.65"/>
+<vertex x="-11.3" y="4.65" curve="90"/>
+<vertex x="-11.35" y="4.6"/>
+<vertex x="-11.35" y="3.8" curve="90"/>
+<vertex x="-11.3" y="3.75"/>
+<vertex x="-10.6" y="3.75" curve="90"/>
+<vertex x="-10.15" y="4.2" curve="90"/>
+</polygon>
+<circle x="-10.6" y="-0.6" radius="0.45" width="0" layer="1"/>
+<smd name="D5" x="-10.975" y="-0.6" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R270" stop="no" cream="no"/>
+<circle x="-10.6" y="-1.8" radius="0.45" width="0" layer="1"/>
+<smd name="D6" x="-10.975" y="-1.8" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R270" stop="no" cream="no"/>
+<circle x="-10.6" y="-3" radius="0.45" width="0" layer="1"/>
+<smd name="D7" x="-10.975" y="-3" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R270" stop="no" cream="no"/>
+<circle x="-10.6" y="-4.2" radius="0.45" width="0" layer="1"/>
+<smd name="D8" x="-10.975" y="-4.2" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R270" stop="no" cream="no"/>
+<smd name="21" x="-9.45" y="-0.6" dx="0.8" dy="0.8" layer="1" roundness="100" rot="R270"/>
+<smd name="22" x="-9.45" y="-1.8" dx="0.8" dy="0.8" layer="1" roundness="100" rot="R270"/>
+<smd name="23" x="-9.45" y="-3" dx="0.8" dy="0.8" layer="1" roundness="100" rot="R270"/>
+<smd name="24" x="-9.45" y="-4.2" dx="0.8" dy="0.8" layer="1" roundness="100" rot="R270"/>
+<polygon width="0.2" layer="29">
+<vertex x="-11.35" y="-4.65"/>
+<vertex x="-10.6" y="-4.65" curve="90"/>
+<vertex x="-10.15" y="-4.2" curve="90"/>
+<vertex x="-10.6" y="-3.75"/>
+<vertex x="-11.35" y="-3.75"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-11.35" y="-3.45"/>
+<vertex x="-10.6" y="-3.45" curve="90"/>
+<vertex x="-10.15" y="-3" curve="90"/>
+<vertex x="-10.6" y="-2.55"/>
+<vertex x="-11.35" y="-2.55"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-11.35" y="-2.25"/>
+<vertex x="-10.6" y="-2.25" curve="90"/>
+<vertex x="-10.15" y="-1.8" curve="90"/>
+<vertex x="-10.6" y="-1.35"/>
+<vertex x="-11.35" y="-1.35"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-11.35" y="-1.05"/>
+<vertex x="-10.6" y="-1.05" curve="90"/>
+<vertex x="-10.15" y="-0.6" curve="90"/>
+<vertex x="-10.6" y="-0.15"/>
+<vertex x="-11.35" y="-0.15"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-10.6" y="-3.75"/>
+<vertex x="-11.3" y="-3.75" curve="90"/>
+<vertex x="-11.35" y="-3.8"/>
+<vertex x="-11.35" y="-4.6" curve="90"/>
+<vertex x="-11.3" y="-4.65"/>
+<vertex x="-10.6" y="-4.65" curve="90"/>
+<vertex x="-10.15" y="-4.2" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-10.6" y="-2.55"/>
+<vertex x="-11.3" y="-2.55" curve="90"/>
+<vertex x="-11.35" y="-2.6"/>
+<vertex x="-11.35" y="-3.4" curve="90"/>
+<vertex x="-11.3" y="-3.45"/>
+<vertex x="-10.6" y="-3.45" curve="90"/>
+<vertex x="-10.15" y="-3" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-10.6" y="-1.35"/>
+<vertex x="-11.3" y="-1.35" curve="90"/>
+<vertex x="-11.35" y="-1.4"/>
+<vertex x="-11.35" y="-2.2" curve="90"/>
+<vertex x="-11.3" y="-2.25"/>
+<vertex x="-10.6" y="-2.25" curve="90"/>
+<vertex x="-10.15" y="-1.8" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="-10.6" y="-0.15"/>
+<vertex x="-11.3" y="-0.15" curve="90"/>
+<vertex x="-11.35" y="-0.2"/>
+<vertex x="-11.35" y="-1" curve="90"/>
+<vertex x="-11.3" y="-1.05"/>
+<vertex x="-10.6" y="-1.05" curve="90"/>
+<vertex x="-10.15" y="-0.6" curve="90"/>
+</polygon>
+<circle x="10.6" y="-4.2" radius="0.45" width="0" layer="1"/>
+<smd name="B1" x="10.975" y="-4.2" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R90" stop="no" cream="no"/>
+<circle x="10.6" y="-3" radius="0.45" width="0" layer="1"/>
+<smd name="B2" x="10.975" y="-3" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R90" stop="no" cream="no"/>
+<circle x="10.6" y="-1.8" radius="0.45" width="0" layer="1"/>
+<smd name="B3" x="10.975" y="-1.8" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R90" stop="no" cream="no"/>
+<circle x="10.6" y="-0.6" radius="0.45" width="0" layer="1"/>
+<smd name="B4" x="10.975" y="-0.6" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R90" stop="no" cream="no"/>
+<smd name="5" x="9.45" y="-4.2" dx="0.8" dy="0.8" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="9.45" y="-3" dx="0.8" dy="0.8" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="9.45" y="-1.8" dx="0.8" dy="0.8" layer="1" roundness="100" rot="R90"/>
+<smd name="8" x="9.45" y="-0.6" dx="0.8" dy="0.8" layer="1" roundness="100" rot="R90"/>
+<polygon width="0.2" layer="29">
+<vertex x="11.35" y="-0.15"/>
+<vertex x="10.6" y="-0.15" curve="90"/>
+<vertex x="10.15" y="-0.6" curve="90"/>
+<vertex x="10.6" y="-1.05"/>
+<vertex x="11.35" y="-1.05"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="11.35" y="-1.35"/>
+<vertex x="10.6" y="-1.35" curve="90"/>
+<vertex x="10.15" y="-1.8" curve="90"/>
+<vertex x="10.6" y="-2.25"/>
+<vertex x="11.35" y="-2.25"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="11.35" y="-2.55"/>
+<vertex x="10.6" y="-2.55" curve="90"/>
+<vertex x="10.15" y="-3" curve="90"/>
+<vertex x="10.6" y="-3.45"/>
+<vertex x="11.35" y="-3.45"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="11.35" y="-3.75"/>
+<vertex x="10.6" y="-3.75" curve="90"/>
+<vertex x="10.15" y="-4.2" curve="90"/>
+<vertex x="10.6" y="-4.65"/>
+<vertex x="11.35" y="-4.65"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="10.6" y="-1.05"/>
+<vertex x="11.3" y="-1.05" curve="90"/>
+<vertex x="11.35" y="-1"/>
+<vertex x="11.35" y="-0.2" curve="90"/>
+<vertex x="11.3" y="-0.15"/>
+<vertex x="10.6" y="-0.15" curve="90"/>
+<vertex x="10.15" y="-0.6" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="10.6" y="-2.25"/>
+<vertex x="11.3" y="-2.25" curve="90"/>
+<vertex x="11.35" y="-2.2"/>
+<vertex x="11.35" y="-1.4" curve="90"/>
+<vertex x="11.3" y="-1.35"/>
+<vertex x="10.6" y="-1.35" curve="90"/>
+<vertex x="10.15" y="-1.8" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="10.6" y="-3.45"/>
+<vertex x="11.3" y="-3.45" curve="90"/>
+<vertex x="11.35" y="-3.4"/>
+<vertex x="11.35" y="-2.6" curve="90"/>
+<vertex x="11.3" y="-2.55"/>
+<vertex x="10.6" y="-2.55" curve="90"/>
+<vertex x="10.15" y="-3" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="10.6" y="-4.65"/>
+<vertex x="11.3" y="-4.65" curve="90"/>
+<vertex x="11.35" y="-4.6"/>
+<vertex x="11.35" y="-3.8" curve="90"/>
+<vertex x="11.3" y="-3.75"/>
+<vertex x="10.6" y="-3.75" curve="90"/>
+<vertex x="10.15" y="-4.2" curve="90"/>
+</polygon>
+<circle x="10.6" y="0.6" radius="0.45" width="0" layer="1"/>
+<smd name="B5" x="10.975" y="0.6" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R90" stop="no" cream="no"/>
+<circle x="10.6" y="1.8" radius="0.45" width="0" layer="1"/>
+<smd name="B6" x="10.975" y="1.8" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R90" stop="no" cream="no"/>
+<circle x="10.6" y="3" radius="0.45" width="0" layer="1"/>
+<smd name="B7" x="10.975" y="3" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R90" stop="no" cream="no"/>
+<circle x="10.6" y="4.2" radius="0.45" width="0" layer="1"/>
+<smd name="B8" x="10.975" y="4.2" dx="0.9" dy="0.75" layer="1" roundness="15" rot="R90" stop="no" cream="no"/>
+<smd name="9" x="9.45" y="0.6" dx="0.8" dy="0.8" layer="1" roundness="100" rot="R90"/>
+<smd name="10" x="9.45" y="1.8" dx="0.8" dy="0.8" layer="1" roundness="100" rot="R90"/>
+<smd name="11" x="9.45" y="3" dx="0.8" dy="0.8" layer="1" roundness="100" rot="R90"/>
+<smd name="12" x="9.45" y="4.2" dx="0.8" dy="0.8" layer="1" roundness="100" rot="R90"/>
+<polygon width="0.2" layer="29">
+<vertex x="11.35" y="4.65"/>
+<vertex x="10.6" y="4.65" curve="90"/>
+<vertex x="10.15" y="4.2" curve="90"/>
+<vertex x="10.6" y="3.75"/>
+<vertex x="11.35" y="3.75"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="11.35" y="3.45"/>
+<vertex x="10.6" y="3.45" curve="90"/>
+<vertex x="10.15" y="3" curve="90"/>
+<vertex x="10.6" y="2.55"/>
+<vertex x="11.35" y="2.55"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="11.35" y="2.25"/>
+<vertex x="10.6" y="2.25" curve="90"/>
+<vertex x="10.15" y="1.8" curve="90"/>
+<vertex x="10.6" y="1.35"/>
+<vertex x="11.35" y="1.35"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="11.35" y="1.05"/>
+<vertex x="10.6" y="1.05" curve="90"/>
+<vertex x="10.15" y="0.6" curve="90"/>
+<vertex x="10.6" y="0.15"/>
+<vertex x="11.35" y="0.15"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="10.6" y="3.75"/>
+<vertex x="11.3" y="3.75" curve="90"/>
+<vertex x="11.35" y="3.8"/>
+<vertex x="11.35" y="4.6" curve="90"/>
+<vertex x="11.3" y="4.65"/>
+<vertex x="10.6" y="4.65" curve="90"/>
+<vertex x="10.15" y="4.2" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="10.6" y="2.55"/>
+<vertex x="11.3" y="2.55" curve="90"/>
+<vertex x="11.35" y="2.6"/>
+<vertex x="11.35" y="3.4" curve="90"/>
+<vertex x="11.3" y="3.45"/>
+<vertex x="10.6" y="3.45" curve="90"/>
+<vertex x="10.15" y="3" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="10.6" y="1.35"/>
+<vertex x="11.3" y="1.35" curve="90"/>
+<vertex x="11.35" y="1.4"/>
+<vertex x="11.35" y="2.2" curve="90"/>
+<vertex x="11.3" y="2.25"/>
+<vertex x="10.6" y="2.25" curve="90"/>
+<vertex x="10.15" y="1.8" curve="90"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="10.6" y="0.15"/>
+<vertex x="11.3" y="0.15" curve="90"/>
+<vertex x="11.35" y="0.2"/>
+<vertex x="11.35" y="1" curve="90"/>
+<vertex x="11.3" y="1.05"/>
+<vertex x="10.6" y="1.05" curve="90"/>
+<vertex x="10.15" y="0.6" curve="90"/>
+</polygon>
+<smd name="TP1" x="2.49" y="-5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="TP2" x="2.49" y="5.7" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<wire x1="-11.15" y1="7.4" x2="-10.85" y2="7.4" width="0.15" layer="21"/>
+<wire x1="11.15" y1="7.4" x2="10.85" y2="7.4" width="0.15" layer="21"/>
+<wire x1="11.15" y1="-7.4" x2="10.85" y2="-7.4" width="0.15" layer="21"/>
+<wire x1="-11.15" y1="-7.4" x2="-10.85" y2="-7.4" width="0.15" layer="21"/>
+<wire x1="-11.15" y1="7.4" x2="-11.15" y2="4.85" width="0.15" layer="21"/>
+<wire x1="-11.15" y1="-7.4" x2="-11.15" y2="-4.85" width="0.15" layer="21"/>
+<wire x1="11.15" y1="-7.4" x2="11.15" y2="-4.85" width="0.15" layer="21"/>
+<wire x1="11.15" y1="7.4" x2="11.15" y2="4.85" width="0.15" layer="21"/>
+<wire x1="-11.65" y1="-6.4" x2="-11.65" y2="-7.9" width="0.2" layer="29"/>
+<wire x1="-11.65" y1="-7.9" x2="-11.15" y2="-7.9" width="0.2" layer="29"/>
+<wire x1="11.65" y1="6.4" x2="11.65" y2="7.9" width="0.2" layer="29"/>
+<wire x1="11.65" y1="7.9" x2="11.15" y2="7.9" width="0.2" layer="29"/>
+<wire x1="0" y1="0.5" x2="0" y2="-0.5" width="0.05" layer="23"/>
+<wire x1="0.5" y1="0" x2="-0.5" y2="0" width="0.05" layer="23"/>
+</package>
 </packages>
 <symbols>
 <symbol name="UBLOX_NEO">
@@ -1182,6 +2898,287 @@
 <pin name="V_USB_DET$17" x="-30.48" y="-7.62" length="middle"/>
 <text x="-7.62" y="7.62" size="1.778" layer="95">SARA-U2XX</text>
 <text x="20.32" y="50.8" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="ODIN-W160">
+<description>&lt;b&gt;ODIN-W160:&lt;/b&gt; Electrical Symbol &lt;p&gt;
+&lt;a href="http://www.u-blox.com"&gt;u-blox.com&lt;/a&gt;</description>
+<wire x1="-35.56" y1="43.18" x2="-35.56" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="-35.56" y1="-43.18" x2="33.02" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-43.18" x2="33.02" y2="43.18" width="0.254" layer="94"/>
+<wire x1="33.02" y1="43.18" x2="-35.56" y2="43.18" width="0.254" layer="94"/>
+<text x="-5.08" y="2.54" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<text x="-35.56" y="45.72" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<pin name="I2C-E2" x="-40.64" y="-30.48" length="middle" direction="in"/>
+<pin name="!BT_UART_CTS" x="-40.64" y="7.62" length="middle" direction="in"/>
+<pin name="BT_UART_RXD" x="-40.64" y="12.7" length="middle" direction="in"/>
+<pin name="WL_EN" x="-40.64" y="-2.54" length="middle" direction="in"/>
+<pin name="BT_EN" x="-40.64" y="-7.62" length="middle" direction="in"/>
+<pin name="BT_WAKEUP" x="-40.64" y="-5.08" length="middle" direction="in"/>
+<pin name="LPO_32K" x="-40.64" y="-17.78" length="middle" direction="in"/>
+<pin name="I2C_SCL" x="-40.64" y="-25.4" length="middle" direction="in"/>
+<pin name="SDIO_DAT1" x="-40.64" y="27.94" length="middle"/>
+<pin name="I2C_SDA" x="-40.64" y="-27.94" length="middle"/>
+<pin name="SDIO_CMD/SPI_MOSI" x="-40.64" y="33.02" length="middle"/>
+<pin name="SDIO_DAT3/!SPI_CS" x="-40.64" y="22.86" length="middle"/>
+<pin name="SDIO_DAT2" x="-40.64" y="25.4" length="middle"/>
+<pin name="SDIO_DAT0/SPI_MISO" x="-40.64" y="30.48" length="middle"/>
+<pin name="SDIO_CLK/SPI_CLK" x="-40.64" y="35.56" length="middle" direction="in"/>
+<pin name="HOST_WAKEUP" x="-40.64" y="0" length="middle" direction="out"/>
+<pin name="BT_UART_TXD" x="-40.64" y="15.24" length="middle" direction="out"/>
+<pin name="!BT_USRT_RTS" x="-40.64" y="10.16" length="middle" direction="out"/>
+<pin name="WL_IRQ" x="-40.64" y="-10.16" length="middle" direction="out"/>
+<pin name="VIO" x="-10.16" y="48.26" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND@1" x="-30.48" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="VDD@1" x="5.08" y="48.26" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND@2" x="-27.94" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="VDD@2" x="7.62" y="48.26" length="middle" direction="pwr" rot="R270"/>
+<pin name="NC@1" x="38.1" y="22.86" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@2" x="38.1" y="20.32" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@3" x="38.1" y="17.78" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@4" x="38.1" y="15.24" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@5" x="38.1" y="12.7" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@6" x="38.1" y="10.16" length="middle" direction="nc" rot="R180"/>
+<pin name="GND@3" x="-25.4" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="NC@7" x="38.1" y="35.56" length="middle" direction="nc" rot="R180"/>
+<pin name="GND@4" x="-22.86" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@5" x="-20.32" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="NC@8" x="38.1" y="7.62" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@9" x="38.1" y="5.08" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@10" x="38.1" y="2.54" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@11" x="38.1" y="0" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@12" x="38.1" y="-2.54" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@13" x="38.1" y="-5.08" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD1" x="38.1" y="-7.62" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD2" x="38.1" y="-10.16" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD3" x="38.1" y="-12.7" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD4" x="38.1" y="-15.24" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD5" x="38.1" y="-17.78" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD6" x="38.1" y="-20.32" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD7" x="38.1" y="-22.86" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD8" x="38.1" y="-25.4" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD9" x="38.1" y="-27.94" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD19" x="38.1" y="-30.48" length="middle" direction="nc" rot="R180"/>
+<pin name="GND@6" x="-17.78" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@7" x="-15.24" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@8" x="-12.7" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@9" x="-10.16" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@10" x="-7.62" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@11" x="-5.08" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@12" x="-2.54" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@13" x="0" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@14" x="2.54" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@15" x="5.08" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@16" x="7.62" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@17" x="10.16" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@18" x="12.7" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@19" x="15.24" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@20" x="17.78" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@21" x="20.32" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@22" x="22.86" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@23" x="25.4" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@24" x="27.94" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+</symbol>
+<symbol name="ODIN-W161">
+<description>&lt;b&gt;ODIN-W161:&lt;/b&gt; Electrical Symbol &lt;p&gt;
+&lt;a href="http://www.u-blox.com"&gt;u-blox.com&lt;/a&gt;</description>
+<wire x1="-35.56" y1="43.18" x2="-35.56" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="-35.56" y1="-43.18" x2="33.02" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-43.18" x2="33.02" y2="43.18" width="0.254" layer="94"/>
+<wire x1="33.02" y1="43.18" x2="-35.56" y2="43.18" width="0.254" layer="94"/>
+<text x="-5.08" y="2.54" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<text x="-35.56" y="45.72" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<pin name="I2C-E2" x="-40.64" y="-30.48" length="middle" direction="in"/>
+<pin name="!BT_UART_CTS" x="-40.64" y="7.62" length="middle" direction="in"/>
+<pin name="BT_UART_RXD" x="-40.64" y="12.7" length="middle" direction="in"/>
+<pin name="WL_EN" x="-40.64" y="-2.54" length="middle" direction="in"/>
+<pin name="BT_EN" x="-40.64" y="-7.62" length="middle" direction="in"/>
+<pin name="BT_WAKEUP" x="-40.64" y="-5.08" length="middle" direction="in"/>
+<pin name="LPO_32K" x="-40.64" y="-17.78" length="middle" direction="in"/>
+<pin name="I2C_SCL" x="-40.64" y="-25.4" length="middle" direction="in"/>
+<pin name="SDIO_DAT1" x="-40.64" y="27.94" length="middle"/>
+<pin name="I2C_SDA" x="-40.64" y="-27.94" length="middle"/>
+<pin name="SDIO_CMD/SPI_MOSI" x="-40.64" y="33.02" length="middle"/>
+<pin name="SDIO_DAT3/!SPI_CS" x="-40.64" y="22.86" length="middle"/>
+<pin name="SDIO_DAT2" x="-40.64" y="25.4" length="middle"/>
+<pin name="SDIO_DAT0/SPI_MISO" x="-40.64" y="30.48" length="middle"/>
+<pin name="SDIO_CLK/SPI_CLK" x="-40.64" y="35.56" length="middle" direction="in"/>
+<pin name="HOST_WAKEUP" x="-40.64" y="0" length="middle" direction="out"/>
+<pin name="BT_UART_TXD" x="-40.64" y="15.24" length="middle" direction="out"/>
+<pin name="!BT_USRT_RTS" x="-40.64" y="10.16" length="middle" direction="out"/>
+<pin name="WL_IRQ" x="-40.64" y="-10.16" length="middle" direction="out"/>
+<pin name="VIO" x="-10.16" y="48.26" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND@1" x="-30.48" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="VDD@1" x="5.08" y="48.26" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND@2" x="-27.94" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="VDD@2" x="7.62" y="48.26" length="middle" direction="pwr" rot="R270"/>
+<pin name="NC@1" x="38.1" y="22.86" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@2" x="38.1" y="20.32" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@3" x="38.1" y="17.78" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@4" x="38.1" y="15.24" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@5" x="38.1" y="12.7" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@6" x="38.1" y="10.16" length="middle" direction="nc" rot="R180"/>
+<pin name="GND@3" x="-25.4" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="ANT" x="38.1" y="35.56" length="middle" rot="R180"/>
+<pin name="GND@4" x="-22.86" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@5" x="-20.32" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="NC@8" x="38.1" y="7.62" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@9" x="38.1" y="5.08" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@10" x="38.1" y="2.54" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@11" x="38.1" y="0" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@12" x="38.1" y="-2.54" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@13" x="38.1" y="-5.08" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD1" x="38.1" y="-7.62" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD2" x="38.1" y="-10.16" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD3" x="38.1" y="-12.7" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD4" x="38.1" y="-15.24" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD5" x="38.1" y="-17.78" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD6" x="38.1" y="-20.32" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD7" x="38.1" y="-22.86" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD8" x="38.1" y="-25.4" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD9" x="38.1" y="-27.94" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD19" x="38.1" y="-30.48" length="middle" direction="nc" rot="R180"/>
+<pin name="GND@6" x="-17.78" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@7" x="-15.24" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@8" x="-12.7" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@9" x="-10.16" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@10" x="-7.62" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@11" x="-5.08" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@12" x="-2.54" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@13" x="0" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@14" x="2.54" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@15" x="5.08" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@16" x="7.62" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@17" x="10.16" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@18" x="12.7" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@19" x="15.24" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@20" x="17.78" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@21" x="20.32" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@22" x="22.86" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@23" x="25.4" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@24" x="27.94" y="-48.26" length="middle" direction="pwr" rot="R90"/>
+</symbol>
+<symbol name="ODIN-W260_GPIO">
+<description>&lt;b&gt;ODIN-W26x:&lt;/b&gt; Electrical Symbol - Interfaces &lt;p&gt;
+&lt;a href="http://www.u-blox.com"&gt;u-blox.com&lt;/a&gt;</description>
+<wire x1="-25.4" y1="27.94" x2="-25.4" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-30.48" x2="25.4" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-30.48" x2="25.4" y2="27.94" width="0.254" layer="94"/>
+<wire x1="25.4" y1="27.94" x2="-25.4" y2="27.94" width="0.254" layer="94"/>
+<text x="-5.08" y="2.54" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<text x="-25.4" y="30.48" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<pin name="!RESET" x="30.48" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="UART_DTR" x="-30.48" y="-22.86" length="middle" direction="out"/>
+<pin name="!SWITCH_0" x="30.48" y="10.16" length="middle" direction="in" rot="R180"/>
+<pin name="RED" x="30.48" y="15.24" length="middle" direction="out" rot="R180"/>
+<pin name="GREEN/!SWITCH_1" x="30.48" y="12.7" length="middle" rot="R180"/>
+<pin name="BLUE" x="30.48" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="!UART_CTS" x="-30.48" y="-20.32" length="middle" direction="in"/>
+<pin name="UART_TXD" x="-30.48" y="-12.7" length="middle" direction="out"/>
+<pin name="!UART_RTS" x="-30.48" y="-17.78" length="middle" direction="out"/>
+<pin name="UART_RXD" x="-30.48" y="-15.24" length="middle" direction="in"/>
+<pin name="UART_DSR" x="-30.48" y="-25.4" length="middle" direction="in"/>
+<pin name="RMII_MDC" x="-30.48" y="-2.54" length="middle" direction="out"/>
+<pin name="RMII_MDIO" x="-30.48" y="-5.08" length="middle"/>
+<pin name="LPO_CLK" x="30.48" y="22.86" length="middle" direction="in" rot="R180"/>
+<pin name="RMII_TXD0" x="-30.48" y="17.78" length="middle" direction="out"/>
+<pin name="RMII_TXD1" x="-30.48" y="15.24" length="middle" direction="out"/>
+<pin name="RMII_TXEN" x="-30.48" y="12.7" length="middle" direction="out"/>
+<pin name="RMII_CRSDV" x="-30.48" y="2.54" length="middle" direction="in"/>
+<pin name="RMII_RXD0" x="-30.48" y="7.62" length="middle" direction="in"/>
+<pin name="RMII_RXD1" x="-30.48" y="5.08" length="middle" direction="in"/>
+<pin name="RMII_REFCLK" x="-30.48" y="22.86" length="middle" direction="in"/>
+</symbol>
+<symbol name="ODIN-W260_PWR">
+<description>&lt;b&gt;ODIN-W26x:&lt;/b&gt; Electrical Symbol- Power and NC &lt;p&gt;
+&lt;a href="http://www.u-blox.com"&gt;u-blox.com&lt;/a&gt;</description>
+<wire x1="-60.96" y1="35.56" x2="-60.96" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="-38.1" x2="60.96" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="60.96" y1="-38.1" x2="60.96" y2="35.56" width="0.254" layer="94"/>
+<wire x1="60.96" y1="35.56" x2="-60.96" y2="35.56" width="0.254" layer="94"/>
+<text x="-5.08" y="2.54" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<text x="-60.96" y="38.1" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<pin name="V_INT" x="-66.04" y="22.86" length="middle" direction="pwr"/>
+<pin name="GND@1" x="-55.88" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@2" x="-53.34" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="VCC" x="-66.04" y="30.48" length="middle" direction="pwr"/>
+<pin name="NC@1" x="66.04" y="30.48" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@2" x="66.04" y="27.94" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@3" x="66.04" y="25.4" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@4" x="66.04" y="22.86" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@5" x="66.04" y="20.32" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@6" x="66.04" y="17.78" length="middle" direction="nc" rot="R180"/>
+<pin name="GND@3" x="-50.8" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="NC@7" x="66.04" y="15.24" length="middle" direction="nc" rot="R180"/>
+<pin name="GND@4" x="-48.26" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@5" x="-45.72" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="NC@8" x="66.04" y="12.7" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@9" x="66.04" y="10.16" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@10" x="66.04" y="7.62" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@11" x="66.04" y="5.08" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@12" x="66.04" y="2.54" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@13" x="66.04" y="0" length="middle" direction="nc" rot="R180"/>
+<pin name="TEST_PAD1" x="-66.04" y="2.54" length="middle" direction="nc"/>
+<pin name="TEST_PAD2" x="-66.04" y="0" length="middle" direction="nc"/>
+<pin name="TEST_PAD3" x="-66.04" y="-2.54" length="middle" direction="nc"/>
+<pin name="TEST_PAD4" x="-66.04" y="-5.08" length="middle" direction="nc"/>
+<pin name="TEST_PAD5" x="-66.04" y="-7.62" length="middle" direction="nc"/>
+<pin name="TEST_PAD6" x="-66.04" y="-10.16" length="middle" direction="nc"/>
+<pin name="TEST_PAD7" x="-66.04" y="-12.7" length="middle" direction="nc"/>
+<pin name="TEST_PAD8" x="-66.04" y="-15.24" length="middle" direction="nc"/>
+<pin name="TEST_PAD9" x="-66.04" y="-17.78" length="middle" direction="nc"/>
+<pin name="GND@6" x="-43.18" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@7" x="-40.64" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@8" x="-38.1" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@9" x="-35.56" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@10" x="-33.02" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@11" x="-30.48" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@12" x="-27.94" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@13" x="-25.4" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@14" x="-22.86" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@15" x="-20.32" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@16" x="-17.78" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@17" x="-15.24" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@18" x="-12.7" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@19" x="-10.16" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@20" x="-7.62" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@21" x="-5.08" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@22" x="-2.54" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@23" x="0" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@24" x="2.54" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@25" x="5.08" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@26" x="7.62" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@27" x="10.16" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@28" x="12.7" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@29" x="15.24" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@30" x="17.78" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@31" x="20.32" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@32" x="22.86" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@33" x="25.4" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@34" x="27.94" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@35" x="30.48" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@36" x="33.02" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@37" x="35.56" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@38" x="38.1" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@39" x="40.64" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@40" x="43.18" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@41" x="45.72" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@42" x="48.26" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@43" x="50.8" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@44" x="53.34" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@45" x="55.88" y="-43.18" length="middle" direction="pwr" rot="R90"/>
+<pin name="TEST_PAD10" x="-66.04" y="-20.32" length="middle" direction="nc"/>
+<pin name="TEST_PAD11" x="-66.04" y="-22.86" length="middle" direction="nc"/>
+<pin name="TEST_PAD12" x="-66.04" y="-25.4" length="middle" direction="nc"/>
+<pin name="NC@14" x="66.04" y="-2.54" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@15" x="66.04" y="-5.08" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@16" x="66.04" y="-7.62" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@17" x="66.04" y="-10.16" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@18" x="66.04" y="-12.7" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@19" x="66.04" y="-15.24" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@20" x="66.04" y="-17.78" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@21" x="66.04" y="-20.32" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@22" x="66.04" y="-22.86" length="middle" direction="nc" rot="R180"/>
+<pin name="NC@23" x="66.04" y="-25.4" length="middle" direction="nc" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1590,6 +3587,420 @@
 <connect gate="G$1" pin="V_BCKP$2" pad="2"/>
 <connect gate="G$1" pin="V_INT$4" pad="4"/>
 <connect gate="G$1" pin="V_USB_DET$17" pad="17"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ODIN-W160" prefix="U">
+<description>&lt;b&gt;ODIN-W160:&lt;/b&gt; Host-based multiradio module with 
+Wi-Fi and Bluetooth&lt;p&gt;
+&lt;a href="http://www.u-blox.com"&gt;u-blox.com&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ODIN-W160" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ODIN-69">
+<connects>
+<connect gate="G$1" pin="!BT_UART_CTS" pad="10"/>
+<connect gate="G$1" pin="!BT_USRT_RTS" pad="12"/>
+<connect gate="G$1" pin="BT_EN" pad="17"/>
+<connect gate="G$1" pin="BT_UART_RXD" pad="13"/>
+<connect gate="G$1" pin="BT_UART_TXD" pad="11"/>
+<connect gate="G$1" pin="BT_WAKEUP" pad="18"/>
+<connect gate="G$1" pin="GND@1" pad="3"/>
+<connect gate="G$1" pin="GND@10" pad="41"/>
+<connect gate="G$1" pin="GND@11" pad="42"/>
+<connect gate="G$1" pin="GND@12" pad="43"/>
+<connect gate="G$1" pin="GND@13" pad="44"/>
+<connect gate="G$1" pin="GND@14" pad="45"/>
+<connect gate="G$1" pin="GND@15" pad="46"/>
+<connect gate="G$1" pin="GND@16" pad="47"/>
+<connect gate="G$1" pin="GND@17" pad="48"/>
+<connect gate="G$1" pin="GND@18" pad="49"/>
+<connect gate="G$1" pin="GND@19" pad="50"/>
+<connect gate="G$1" pin="GND@2" pad="25"/>
+<connect gate="G$1" pin="GND@20" pad="51"/>
+<connect gate="G$1" pin="GND@21" pad="52"/>
+<connect gate="G$1" pin="GND@22" pad="53"/>
+<connect gate="G$1" pin="GND@23" pad="54"/>
+<connect gate="G$1" pin="GND@24" pad="55"/>
+<connect gate="G$1" pin="GND@3" pad="19"/>
+<connect gate="G$1" pin="GND@4" pad="21"/>
+<connect gate="G$1" pin="GND@5" pad="22"/>
+<connect gate="G$1" pin="GND@6" pad="37"/>
+<connect gate="G$1" pin="GND@7" pad="38"/>
+<connect gate="G$1" pin="GND@8" pad="39"/>
+<connect gate="G$1" pin="GND@9" pad="40"/>
+<connect gate="G$1" pin="HOST_WAKEUP" pad="5"/>
+<connect gate="G$1" pin="I2C-E2" pad="6"/>
+<connect gate="G$1" pin="I2C_SCL" pad="35"/>
+<connect gate="G$1" pin="I2C_SDA" pad="36"/>
+<connect gate="G$1" pin="LPO_32K" pad="34"/>
+<connect gate="G$1" pin="NC@1" pad="1"/>
+<connect gate="G$1" pin="NC@10" pad="66"/>
+<connect gate="G$1" pin="NC@11" pad="67"/>
+<connect gate="G$1" pin="NC@12" pad="68"/>
+<connect gate="G$1" pin="NC@13" pad="69"/>
+<connect gate="G$1" pin="NC@2" pad="7"/>
+<connect gate="G$1" pin="NC@3" pad="8"/>
+<connect gate="G$1" pin="NC@4" pad="9"/>
+<connect gate="G$1" pin="NC@5" pad="14"/>
+<connect gate="G$1" pin="NC@6" pad="15"/>
+<connect gate="G$1" pin="NC@7" pad="20"/>
+<connect gate="G$1" pin="NC@8" pad="32"/>
+<connect gate="G$1" pin="NC@9" pad="33"/>
+<connect gate="G$1" pin="SDIO_CLK/SPI_CLK" pad="26"/>
+<connect gate="G$1" pin="SDIO_CMD/SPI_MOSI" pad="28"/>
+<connect gate="G$1" pin="SDIO_DAT0/SPI_MISO" pad="24"/>
+<connect gate="G$1" pin="SDIO_DAT1" pad="23"/>
+<connect gate="G$1" pin="SDIO_DAT2" pad="30"/>
+<connect gate="G$1" pin="SDIO_DAT3/!SPI_CS" pad="29"/>
+<connect gate="G$1" pin="TEST_PAD1" pad="56"/>
+<connect gate="G$1" pin="TEST_PAD19" pad="65"/>
+<connect gate="G$1" pin="TEST_PAD2" pad="57"/>
+<connect gate="G$1" pin="TEST_PAD3" pad="58"/>
+<connect gate="G$1" pin="TEST_PAD4" pad="59"/>
+<connect gate="G$1" pin="TEST_PAD5" pad="60"/>
+<connect gate="G$1" pin="TEST_PAD6" pad="61"/>
+<connect gate="G$1" pin="TEST_PAD7" pad="62"/>
+<connect gate="G$1" pin="TEST_PAD8" pad="63"/>
+<connect gate="G$1" pin="TEST_PAD9" pad="64"/>
+<connect gate="G$1" pin="VDD@1" pad="4"/>
+<connect gate="G$1" pin="VDD@2" pad="27"/>
+<connect gate="G$1" pin="VIO" pad="2"/>
+<connect gate="G$1" pin="WL_EN" pad="16"/>
+<connect gate="G$1" pin="WL_IRQ" pad="31"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ODIN-W161" prefix="U">
+<description>&lt;b&gt;ODIN-W161:&lt;/b&gt; Host-based multiradio module with 
+Wi-Fi and Bluetooth&lt;p&gt;
+&lt;a href="http://www.u-blox.com"&gt;u-blox.com&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ODIN-W161" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ODIN-69">
+<connects>
+<connect gate="G$1" pin="!BT_UART_CTS" pad="10"/>
+<connect gate="G$1" pin="!BT_USRT_RTS" pad="12"/>
+<connect gate="G$1" pin="ANT" pad="20"/>
+<connect gate="G$1" pin="BT_EN" pad="17"/>
+<connect gate="G$1" pin="BT_UART_RXD" pad="13"/>
+<connect gate="G$1" pin="BT_UART_TXD" pad="11"/>
+<connect gate="G$1" pin="BT_WAKEUP" pad="18"/>
+<connect gate="G$1" pin="GND@1" pad="3"/>
+<connect gate="G$1" pin="GND@10" pad="41"/>
+<connect gate="G$1" pin="GND@11" pad="42"/>
+<connect gate="G$1" pin="GND@12" pad="43"/>
+<connect gate="G$1" pin="GND@13" pad="44"/>
+<connect gate="G$1" pin="GND@14" pad="45"/>
+<connect gate="G$1" pin="GND@15" pad="46"/>
+<connect gate="G$1" pin="GND@16" pad="47"/>
+<connect gate="G$1" pin="GND@17" pad="48"/>
+<connect gate="G$1" pin="GND@18" pad="49"/>
+<connect gate="G$1" pin="GND@19" pad="50"/>
+<connect gate="G$1" pin="GND@2" pad="19"/>
+<connect gate="G$1" pin="GND@20" pad="51"/>
+<connect gate="G$1" pin="GND@21" pad="52"/>
+<connect gate="G$1" pin="GND@22" pad="53"/>
+<connect gate="G$1" pin="GND@23" pad="54"/>
+<connect gate="G$1" pin="GND@24" pad="55"/>
+<connect gate="G$1" pin="GND@3" pad="21"/>
+<connect gate="G$1" pin="GND@4" pad="22"/>
+<connect gate="G$1" pin="GND@5" pad="25"/>
+<connect gate="G$1" pin="GND@6" pad="37"/>
+<connect gate="G$1" pin="GND@7" pad="38"/>
+<connect gate="G$1" pin="GND@8" pad="39"/>
+<connect gate="G$1" pin="GND@9" pad="40"/>
+<connect gate="G$1" pin="HOST_WAKEUP" pad="5"/>
+<connect gate="G$1" pin="I2C-E2" pad="6"/>
+<connect gate="G$1" pin="I2C_SCL" pad="35"/>
+<connect gate="G$1" pin="I2C_SDA" pad="36"/>
+<connect gate="G$1" pin="LPO_32K" pad="34"/>
+<connect gate="G$1" pin="NC@1" pad="1"/>
+<connect gate="G$1" pin="NC@10" pad="66"/>
+<connect gate="G$1" pin="NC@11" pad="67"/>
+<connect gate="G$1" pin="NC@12" pad="68"/>
+<connect gate="G$1" pin="NC@13" pad="69"/>
+<connect gate="G$1" pin="NC@2" pad="7"/>
+<connect gate="G$1" pin="NC@3" pad="8"/>
+<connect gate="G$1" pin="NC@4" pad="9"/>
+<connect gate="G$1" pin="NC@5" pad="14"/>
+<connect gate="G$1" pin="NC@6" pad="15"/>
+<connect gate="G$1" pin="NC@8" pad="32"/>
+<connect gate="G$1" pin="NC@9" pad="33"/>
+<connect gate="G$1" pin="SDIO_CLK/SPI_CLK" pad="26"/>
+<connect gate="G$1" pin="SDIO_CMD/SPI_MOSI" pad="28"/>
+<connect gate="G$1" pin="SDIO_DAT0/SPI_MISO" pad="24"/>
+<connect gate="G$1" pin="SDIO_DAT1" pad="23"/>
+<connect gate="G$1" pin="SDIO_DAT2" pad="30"/>
+<connect gate="G$1" pin="SDIO_DAT3/!SPI_CS" pad="29"/>
+<connect gate="G$1" pin="TEST_PAD1" pad="56"/>
+<connect gate="G$1" pin="TEST_PAD19" pad="65"/>
+<connect gate="G$1" pin="TEST_PAD2" pad="57"/>
+<connect gate="G$1" pin="TEST_PAD3" pad="58"/>
+<connect gate="G$1" pin="TEST_PAD4" pad="59"/>
+<connect gate="G$1" pin="TEST_PAD5" pad="60"/>
+<connect gate="G$1" pin="TEST_PAD6" pad="61"/>
+<connect gate="G$1" pin="TEST_PAD7" pad="62"/>
+<connect gate="G$1" pin="TEST_PAD8" pad="63"/>
+<connect gate="G$1" pin="TEST_PAD9" pad="64"/>
+<connect gate="G$1" pin="VDD@1" pad="4"/>
+<connect gate="G$1" pin="VDD@2" pad="27"/>
+<connect gate="G$1" pin="VIO" pad="2"/>
+<connect gate="G$1" pin="WL_EN" pad="16"/>
+<connect gate="G$1" pin="WL_IRQ" pad="31"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ODIN-W260" prefix="U">
+<description>&lt;b&gt;ODIN-W260:&lt;/b&gt; Host-based multiradio module with 
+Wi-Fi and Bluetooth, external antennas&lt;p&gt;
+&lt;a href="http://www.u-blox.com"&gt;u-blox.com&lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="ODIN-W260_GPIO" x="0" y="0"/>
+<gate name="B" symbol="ODIN-W260_PWR" x="0" y="-81.28"/>
+</gates>
+<devices>
+<device name="" package="ODIN-88">
+<connects>
+<connect gate="A" pin="!RESET" pad="A1"/>
+<connect gate="A" pin="!SWITCH_0" pad="A6"/>
+<connect gate="A" pin="!UART_CTS" pad="A10"/>
+<connect gate="A" pin="!UART_RTS" pad="A12"/>
+<connect gate="A" pin="BLUE" pad="A9"/>
+<connect gate="A" pin="GREEN/!SWITCH_1" pad="A8"/>
+<connect gate="A" pin="LPO_CLK" pad="C16"/>
+<connect gate="A" pin="RED" pad="A7"/>
+<connect gate="A" pin="RMII_CRSDV" pad="D4"/>
+<connect gate="A" pin="RMII_MDC" pad="C14"/>
+<connect gate="A" pin="RMII_MDIO" pad="C15"/>
+<connect gate="A" pin="RMII_REFCLK" pad="D8"/>
+<connect gate="A" pin="RMII_RXD0" pad="D5"/>
+<connect gate="A" pin="RMII_RXD1" pad="D6"/>
+<connect gate="A" pin="RMII_TXD0" pad="D1"/>
+<connect gate="A" pin="RMII_TXD1" pad="D2"/>
+<connect gate="A" pin="RMII_TXEN" pad="D3"/>
+<connect gate="A" pin="UART_DSR" pad="A18"/>
+<connect gate="A" pin="UART_DTR" pad="A5"/>
+<connect gate="A" pin="UART_RXD" pad="A13"/>
+<connect gate="A" pin="UART_TXD" pad="A11"/>
+<connect gate="B" pin="GND@1" pad="A3"/>
+<connect gate="B" pin="GND@10" pad="4"/>
+<connect gate="B" pin="GND@11" pad="5"/>
+<connect gate="B" pin="GND@12" pad="6"/>
+<connect gate="B" pin="GND@13" pad="7"/>
+<connect gate="B" pin="GND@14" pad="8"/>
+<connect gate="B" pin="GND@15" pad="9"/>
+<connect gate="B" pin="GND@16" pad="10"/>
+<connect gate="B" pin="GND@17" pad="11"/>
+<connect gate="B" pin="GND@18" pad="12"/>
+<connect gate="B" pin="GND@19" pad="13"/>
+<connect gate="B" pin="GND@2" pad="C1"/>
+<connect gate="B" pin="GND@20" pad="14"/>
+<connect gate="B" pin="GND@21" pad="15"/>
+<connect gate="B" pin="GND@22" pad="16"/>
+<connect gate="B" pin="GND@23" pad="17"/>
+<connect gate="B" pin="GND@24" pad="18"/>
+<connect gate="B" pin="GND@25" pad="19"/>
+<connect gate="B" pin="GND@26" pad="20"/>
+<connect gate="B" pin="GND@27" pad="21"/>
+<connect gate="B" pin="GND@28" pad="22"/>
+<connect gate="B" pin="GND@29" pad="23"/>
+<connect gate="B" pin="GND@3" pad="C3"/>
+<connect gate="B" pin="GND@30" pad="24"/>
+<connect gate="B" pin="GND@31" pad="25"/>
+<connect gate="B" pin="GND@32" pad="26"/>
+<connect gate="B" pin="GND@33" pad="27"/>
+<connect gate="B" pin="GND@34" pad="28"/>
+<connect gate="B" pin="GND@35" pad="29"/>
+<connect gate="B" pin="GND@36" pad="30"/>
+<connect gate="B" pin="GND@37" pad="31"/>
+<connect gate="B" pin="GND@38" pad="32"/>
+<connect gate="B" pin="GND@39" pad="33"/>
+<connect gate="B" pin="GND@4" pad="C4"/>
+<connect gate="B" pin="GND@40" pad="34"/>
+<connect gate="B" pin="GND@41" pad="35"/>
+<connect gate="B" pin="GND@42" pad="36"/>
+<connect gate="B" pin="GND@43" pad="37"/>
+<connect gate="B" pin="GND@44" pad="38"/>
+<connect gate="B" pin="GND@45" pad="39"/>
+<connect gate="B" pin="GND@5" pad="C7"/>
+<connect gate="B" pin="GND@6" pad="D7"/>
+<connect gate="B" pin="GND@7" pad="1"/>
+<connect gate="B" pin="GND@8" pad="2"/>
+<connect gate="B" pin="GND@9" pad="3"/>
+<connect gate="B" pin="NC@1" pad="A14"/>
+<connect gate="B" pin="NC@10" pad="B6"/>
+<connect gate="B" pin="NC@11" pad="B7"/>
+<connect gate="B" pin="NC@12" pad="B8"/>
+<connect gate="B" pin="NC@13" pad="C2"/>
+<connect gate="B" pin="NC@14" pad="C5"/>
+<connect gate="B" pin="NC@15" pad="C6"/>
+<connect gate="B" pin="NC@16" pad="C8"/>
+<connect gate="B" pin="NC@17" pad="C9"/>
+<connect gate="B" pin="NC@18" pad="C10"/>
+<connect gate="B" pin="NC@19" pad="C11"/>
+<connect gate="B" pin="NC@2" pad="A15"/>
+<connect gate="B" pin="NC@20" pad="C12"/>
+<connect gate="B" pin="NC@21" pad="C13"/>
+<connect gate="B" pin="NC@22" pad="C17"/>
+<connect gate="B" pin="NC@23" pad="C18"/>
+<connect gate="B" pin="NC@3" pad="A16"/>
+<connect gate="B" pin="NC@4" pad="A17"/>
+<connect gate="B" pin="NC@5" pad="B1"/>
+<connect gate="B" pin="NC@6" pad="B2"/>
+<connect gate="B" pin="NC@7" pad="B3"/>
+<connect gate="B" pin="NC@8" pad="B4"/>
+<connect gate="B" pin="NC@9" pad="B5"/>
+<connect gate="B" pin="TEST_PAD1" pad="TP1"/>
+<connect gate="B" pin="TEST_PAD10" pad="TP10"/>
+<connect gate="B" pin="TEST_PAD11" pad="TP11"/>
+<connect gate="B" pin="TEST_PAD12" pad="TP12"/>
+<connect gate="B" pin="TEST_PAD2" pad="TP2"/>
+<connect gate="B" pin="TEST_PAD3" pad="TP3"/>
+<connect gate="B" pin="TEST_PAD4" pad="TP4"/>
+<connect gate="B" pin="TEST_PAD5" pad="TP5"/>
+<connect gate="B" pin="TEST_PAD6" pad="TP6"/>
+<connect gate="B" pin="TEST_PAD7" pad="TP7"/>
+<connect gate="B" pin="TEST_PAD8" pad="TP8"/>
+<connect gate="B" pin="TEST_PAD9" pad="TP9"/>
+<connect gate="B" pin="VCC" pad="A4"/>
+<connect gate="B" pin="V_INT" pad="A2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ODIN-W262" prefix="U">
+<description>&lt;b&gt;ODIN-W260:&lt;/b&gt; Host-based multiradio module with 
+Wi-Fi and Bluetooth, internal antenna&lt;p&gt;
+&lt;a href="http://www.u-blox.com"&gt;u-blox.com&lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="ODIN-W260_GPIO" x="0" y="0"/>
+<gate name="B" symbol="ODIN-W260_PWR" x="0" y="-81.28"/>
+</gates>
+<devices>
+<device name="" package="ODIN-88">
+<connects>
+<connect gate="A" pin="!RESET" pad="A1"/>
+<connect gate="A" pin="!SWITCH_0" pad="A6"/>
+<connect gate="A" pin="!UART_CTS" pad="A10"/>
+<connect gate="A" pin="!UART_RTS" pad="A12"/>
+<connect gate="A" pin="BLUE" pad="A9"/>
+<connect gate="A" pin="GREEN/!SWITCH_1" pad="A8"/>
+<connect gate="A" pin="LPO_CLK" pad="C16"/>
+<connect gate="A" pin="RED" pad="A7"/>
+<connect gate="A" pin="RMII_CRSDV" pad="D4"/>
+<connect gate="A" pin="RMII_MDC" pad="C14"/>
+<connect gate="A" pin="RMII_MDIO" pad="C15"/>
+<connect gate="A" pin="RMII_REFCLK" pad="D8"/>
+<connect gate="A" pin="RMII_RXD0" pad="D5"/>
+<connect gate="A" pin="RMII_RXD1" pad="D6"/>
+<connect gate="A" pin="RMII_TXD0" pad="D1"/>
+<connect gate="A" pin="RMII_TXD1" pad="D2"/>
+<connect gate="A" pin="RMII_TXEN" pad="D3"/>
+<connect gate="A" pin="UART_DSR" pad="A18"/>
+<connect gate="A" pin="UART_DTR" pad="A5"/>
+<connect gate="A" pin="UART_RXD" pad="A13"/>
+<connect gate="A" pin="UART_TXD" pad="A11"/>
+<connect gate="B" pin="GND@1" pad="A3"/>
+<connect gate="B" pin="GND@10" pad="4"/>
+<connect gate="B" pin="GND@11" pad="5"/>
+<connect gate="B" pin="GND@12" pad="6"/>
+<connect gate="B" pin="GND@13" pad="7"/>
+<connect gate="B" pin="GND@14" pad="8"/>
+<connect gate="B" pin="GND@15" pad="9"/>
+<connect gate="B" pin="GND@16" pad="10"/>
+<connect gate="B" pin="GND@17" pad="11"/>
+<connect gate="B" pin="GND@18" pad="12"/>
+<connect gate="B" pin="GND@19" pad="13"/>
+<connect gate="B" pin="GND@2" pad="C1"/>
+<connect gate="B" pin="GND@20" pad="14"/>
+<connect gate="B" pin="GND@21" pad="15"/>
+<connect gate="B" pin="GND@22" pad="16"/>
+<connect gate="B" pin="GND@23" pad="17"/>
+<connect gate="B" pin="GND@24" pad="18"/>
+<connect gate="B" pin="GND@25" pad="19"/>
+<connect gate="B" pin="GND@26" pad="20"/>
+<connect gate="B" pin="GND@27" pad="21"/>
+<connect gate="B" pin="GND@28" pad="22"/>
+<connect gate="B" pin="GND@29" pad="23"/>
+<connect gate="B" pin="GND@3" pad="C3"/>
+<connect gate="B" pin="GND@30" pad="24"/>
+<connect gate="B" pin="GND@31" pad="25"/>
+<connect gate="B" pin="GND@32" pad="26"/>
+<connect gate="B" pin="GND@33" pad="27"/>
+<connect gate="B" pin="GND@34" pad="28"/>
+<connect gate="B" pin="GND@35" pad="29"/>
+<connect gate="B" pin="GND@36" pad="30"/>
+<connect gate="B" pin="GND@37" pad="31"/>
+<connect gate="B" pin="GND@38" pad="32"/>
+<connect gate="B" pin="GND@39" pad="33"/>
+<connect gate="B" pin="GND@4" pad="C4"/>
+<connect gate="B" pin="GND@40" pad="34"/>
+<connect gate="B" pin="GND@41" pad="35"/>
+<connect gate="B" pin="GND@42" pad="36"/>
+<connect gate="B" pin="GND@43" pad="37"/>
+<connect gate="B" pin="GND@44" pad="38"/>
+<connect gate="B" pin="GND@45" pad="39"/>
+<connect gate="B" pin="GND@5" pad="C7"/>
+<connect gate="B" pin="GND@6" pad="D7"/>
+<connect gate="B" pin="GND@7" pad="1"/>
+<connect gate="B" pin="GND@8" pad="2"/>
+<connect gate="B" pin="GND@9" pad="3"/>
+<connect gate="B" pin="NC@1" pad="A14"/>
+<connect gate="B" pin="NC@10" pad="B6"/>
+<connect gate="B" pin="NC@11" pad="B7"/>
+<connect gate="B" pin="NC@12" pad="B8"/>
+<connect gate="B" pin="NC@13" pad="C2"/>
+<connect gate="B" pin="NC@14" pad="C5"/>
+<connect gate="B" pin="NC@15" pad="C6"/>
+<connect gate="B" pin="NC@16" pad="C8"/>
+<connect gate="B" pin="NC@17" pad="C9"/>
+<connect gate="B" pin="NC@18" pad="C10"/>
+<connect gate="B" pin="NC@19" pad="C11"/>
+<connect gate="B" pin="NC@2" pad="A15"/>
+<connect gate="B" pin="NC@20" pad="C12"/>
+<connect gate="B" pin="NC@21" pad="C13"/>
+<connect gate="B" pin="NC@22" pad="C17"/>
+<connect gate="B" pin="NC@23" pad="C18"/>
+<connect gate="B" pin="NC@3" pad="A16"/>
+<connect gate="B" pin="NC@4" pad="A17"/>
+<connect gate="B" pin="NC@5" pad="B1"/>
+<connect gate="B" pin="NC@6" pad="B2"/>
+<connect gate="B" pin="NC@7" pad="B3"/>
+<connect gate="B" pin="NC@8" pad="B4"/>
+<connect gate="B" pin="NC@9" pad="B5"/>
+<connect gate="B" pin="TEST_PAD1" pad="TP1"/>
+<connect gate="B" pin="TEST_PAD10" pad="TP10"/>
+<connect gate="B" pin="TEST_PAD11" pad="TP11"/>
+<connect gate="B" pin="TEST_PAD12" pad="TP12"/>
+<connect gate="B" pin="TEST_PAD2" pad="TP2"/>
+<connect gate="B" pin="TEST_PAD3" pad="TP3"/>
+<connect gate="B" pin="TEST_PAD4" pad="TP4"/>
+<connect gate="B" pin="TEST_PAD5" pad="TP5"/>
+<connect gate="B" pin="TEST_PAD6" pad="TP6"/>
+<connect gate="B" pin="TEST_PAD7" pad="TP7"/>
+<connect gate="B" pin="TEST_PAD8" pad="TP8"/>
+<connect gate="B" pin="TEST_PAD9" pad="TP9"/>
+<connect gate="B" pin="VCC" pad="A4"/>
+<connect gate="B" pin="V_INT" pad="A2"/>
 </connects>
 <technologies>
 <technology name=""/>
