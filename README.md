@@ -25,7 +25,7 @@ Contribution provided to us for any purpose without fee.
 This library contains the symbols and footprints for CadSoft Eagle. 
 The following symbols/footprints are available in the library:
 * POS:   CAM, EVA, LEA, MAX, NEO
-* CEL:   SARA, LEON, LISA
+* CEL:   
 * SHO:   ODIN-W1, ODIN-W2, ELLA-W1, EMMY-W1, LILY-W1, NINA-B1, THEO-P173-01A
 * other: 
 
