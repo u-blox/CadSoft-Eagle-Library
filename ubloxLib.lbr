@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -27,7 +27,6 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
 <layer number="23" name="tOrigins" color="7" fill="1" visible="yes" active="yes"/>
@@ -2681,65 +2680,6 @@
 <vertex x="0.12" y="-2.09"/>
 <vertex x="0.12" y="-1.43" curve="90"/>
 </polygon>
-<wire x1="-7" y1="5" x2="-7" y2="-5" width="0.1" layer="51"/>
-<wire x1="-7" y1="-5" x2="7" y2="-5" width="0.1" layer="51"/>
-<wire x1="7" y1="-5" x2="7" y2="5" width="0.1" layer="51"/>
-<rectangle x1="-6.55" y1="3.85" x2="-5.85" y2="5.35" layer="51"/>
-<rectangle x1="-5.55" y1="3.85" x2="-4.85" y2="5.35" layer="51"/>
-<rectangle x1="-4.55" y1="3.85" x2="-3.85" y2="5.35" layer="51"/>
-<rectangle x1="-3.55" y1="3.85" x2="-2.85" y2="5.35" layer="51"/>
-<rectangle x1="-2.55" y1="3.85" x2="-1.85" y2="5.35" layer="51"/>
-<rectangle x1="-1.55" y1="3.85" x2="-0.85" y2="5.35" layer="51"/>
-<rectangle x1="-0.55" y1="3.85" x2="0.15" y2="5.35" layer="51"/>
-<rectangle x1="0.45" y1="3.85" x2="1.15" y2="5.35" layer="51"/>
-<rectangle x1="1.45" y1="3.85" x2="2.15" y2="5.35" layer="51"/>
-<rectangle x1="2.45" y1="3.85" x2="3.15" y2="5.35" layer="51"/>
-<rectangle x1="-6.55" y1="-5.35" x2="-5.85" y2="-3.85" layer="51"/>
-<rectangle x1="-5.55" y1="-5.35" x2="-4.85" y2="-3.85" layer="51"/>
-<rectangle x1="-4.55" y1="-5.35" x2="-3.85" y2="-3.85" layer="51"/>
-<rectangle x1="-3.55" y1="-5.35" x2="-2.85" y2="-3.85" layer="51"/>
-<rectangle x1="-1.55" y1="-5.35" x2="-0.85" y2="-3.85" layer="51"/>
-<rectangle x1="-0.55" y1="-5.35" x2="0.15" y2="-3.85" layer="51"/>
-<rectangle x1="-2.55" y1="-5.35" x2="-1.85" y2="-3.85" layer="51"/>
-<rectangle x1="0.45" y1="-5.35" x2="1.15" y2="-3.85" layer="51"/>
-<rectangle x1="1.45" y1="-5.35" x2="2.15" y2="-3.85" layer="51"/>
-<rectangle x1="2.45" y1="-5.35" x2="3.15" y2="-3.85" layer="51"/>
-<rectangle x1="-7.35" y1="-0.35" x2="-5.85" y2="0.35" layer="51"/>
-<rectangle x1="-7.35" y1="0.65" x2="-5.85" y2="1.35" layer="51"/>
-<rectangle x1="-7.35" y1="1.65" x2="-5.85" y2="2.35" layer="51"/>
-<rectangle x1="-7.35" y1="-1.35" x2="-5.85" y2="-0.65" layer="51"/>
-<rectangle x1="-7.35" y1="-2.35" x2="-5.85" y2="-1.65" layer="51"/>
-<rectangle x1="-1.66" y1="-1.03" x2="-0.96" y2="-0.33" layer="51"/>
-<rectangle x1="-1.66" y1="0.05" x2="-0.96" y2="0.75" layer="51"/>
-<rectangle x1="-1.66" y1="1.13" x2="-0.96" y2="1.83" layer="51"/>
-<rectangle x1="-2.74" y1="1.13" x2="-2.04" y2="1.83" layer="51"/>
-<rectangle x1="-2.74" y1="0.05" x2="-2.04" y2="0.75" layer="51"/>
-<rectangle x1="-2.74" y1="-1.03" x2="-2.04" y2="-0.33" layer="51"/>
-<rectangle x1="-2.74" y1="-2.11" x2="-2.04" y2="-1.41" layer="51"/>
-<rectangle x1="-1.66" y1="-2.11" x2="-0.96" y2="-1.41" layer="51"/>
-<rectangle x1="-0.58" y1="-2.11" x2="0.12" y2="-1.41" layer="51"/>
-<rectangle x1="-0.58" y1="-1.03" x2="0.12" y2="-0.33" layer="51"/>
-<rectangle x1="-0.58" y1="0.05" x2="0.12" y2="0.75" layer="51"/>
-<rectangle x1="-0.58" y1="1.13" x2="0.12" y2="1.83" layer="51"/>
-<dimension x1="7" y1="5" x2="-7" y2="5" x3="0" y3="8.5" textsize="0.5" textratio="10" layer="51" width="0.02" extwidth="0.01" visible="yes"/>
-<dimension x1="7" y1="5" x2="7" y2="-5" x3="12" y3="0" textsize="0.5" textratio="10" layer="51" width="0.02" extwidth="0.01" visible="yes"/>
-<dimension x1="-6.55" y1="5.35" x2="-5.85" y2="5.35" x3="-6.2" y3="6" textsize="0.5" textratio="10" layer="51" width="0.02" extwidth="0.01" visible="yes"/>
-<dimension x1="-6.55" y1="3.85" x2="-6.55" y2="5.35" x3="-7.5" y3="4.6" textsize="0.5" textratio="10" layer="51" width="0.02" extwidth="0.01" visible="yes"/>
-<dimension x1="2.85" y1="5.35" x2="1.85" y2="5.35" x3="2.35" y3="6" textsize="0.5" textratio="10" layer="51" width="0.02" extwidth="0.01" visible="yes"/>
-<dimension x1="-7" y1="-5" x2="-6.2" y2="-5" x3="-6.6" y3="-6.5" textsize="0.5" textratio="10" layer="51" dtype="horizontal" width="0.02" extwidth="0.01" visible="yes"/>
-<dimension x1="-7" y1="-5" x2="-7" y2="-2" x3="-7.5" y3="-3.5" textsize="0.5" textratio="10" layer="51" dtype="horizontal" width="0.02" extwidth="0.01" visible="yes"/>
-<dimension x1="0.12" y1="-2.11" x2="-0.58" y2="-2.11" x3="-0.23" y3="-6.5" textsize="0.5" textratio="10" layer="51" width="0.02" extwidth="0.01" visible="yes"/>
-<dimension x1="0.12" y1="-2.11" x2="0.12" y2="-1.41" x3="11" y3="-1.76" textsize="0.5" textratio="10" layer="51" width="0.02" extwidth="0.01" visible="yes"/>
-<dimension x1="-0.23" y1="-2.11" x2="-1.31" y2="-2.11" x3="-0.77" y3="-7.64" textsize="0.5" textratio="10" layer="51" width="0.02" extwidth="0.01" visible="yes"/>
-<dimension x1="0.12" y1="-0.68" x2="0.12" y2="-1.76" x3="10" y3="-1.22" textsize="0.5" textratio="10" layer="51" width="0.02" extwidth="0.01" visible="yes"/>
-<dimension x1="7" y1="-1.76" x2="7" y2="-5" x3="10" y3="-3.38" textsize="0.5" textratio="10" layer="51" dtype="vertical" width="0.02" extwidth="0.01" visible="yes"/>
-<dimension x1="3.15" y1="3.85" x2="0" y2="0" x3="8" y3="1.925" textsize="0.5" textratio="10" layer="51" dtype="vertical" width="0.02" extwidth="0.01" visible="yes"/>
-<wire x1="7" y1="5" x2="-7" y2="5" width="0.1" layer="51"/>
-<dimension x1="0" y1="0" x2="-5.85" y2="2.35" x3="-2.925" y3="7.5" textsize="0.5" textratio="10" layer="51" dtype="horizontal" width="0.02" extwidth="0.01" visible="yes"/>
-<dimension x1="0" y1="0" x2="7" y2="5" x3="9" y3="2.5" textsize="0.5" textratio="10" layer="51" dtype="vertical" width="0.02" extwidth="0.01" visible="yes"/>
-<dimension x1="0" y1="0" x2="7" y2="-5" x3="3.5" y3="7.5" textsize="0.5" textratio="10" layer="51" dtype="horizontal" width="0.02" extwidth="0.01" visible="yes"/>
-<dimension x1="0" y1="0" x2="-0.23" y2="1.83" x3="-0.115" y3="6.5" textsize="0.5" textratio="10" layer="51" dtype="horizontal" width="0.02" extwidth="0.01" visible="yes"/>
-<circle x="-8" y="-6" radius="0.5" width="0.01" layer="51"/>
 <wire x1="6.5" y1="5.5" x2="7.5" y2="5.5" width="0.2" layer="29"/>
 <wire x1="7.5" y1="5.5" x2="7.5" y2="4.5" width="0.2" layer="29"/>
 <wire x1="-7" y1="-5.5" x2="-7.5" y2="-5.5" width="0.2" layer="29"/>
