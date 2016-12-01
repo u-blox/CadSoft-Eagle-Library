@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7474,6 +7474,76 @@
 <vertex x="-5.725" y="-2.525" curve="90"/>
 </polygon>
 </package>
+<package name="CAM-M8">
+<description>&lt;b&gt;CAM-M8:&lt;/b&gt; 31 Pin&lt;p&gt;
+&lt;a href="http://www.u-blox.com"&gt;u-blox.com&lt;/a&gt;</description>
+<smd name="29" x="-6.6" y="0" dx="1.5" dy="0.7" layer="1"/>
+<smd name="28" x="-6.6" y="1" dx="1.5" dy="0.7" layer="1"/>
+<smd name="27" x="-6.6" y="2" dx="1.5" dy="0.7" layer="1"/>
+<smd name="30" x="-6.6" y="-1" dx="1.5" dy="0.7" layer="1"/>
+<smd name="31" x="-6.6" y="-2" dx="1.5" dy="0.7" layer="1"/>
+<smd name="26" x="-6.2" y="4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="25" x="-5.2" y="4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="24" x="-4.2" y="4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="23" x="-3.2" y="4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="22" x="-2.2" y="4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="21" x="-1.2" y="4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="20" x="-0.2" y="4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="19" x="0.8" y="4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="18" x="1.8" y="4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="16" x="3.8" y="4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="17" x="2.8" y="4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="15" x="4.8" y="4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="14" x="5.95" y="4.4" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="1" x="-6.2" y="-4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="2" x="-5.2" y="-4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="3" x="-4.2" y="-4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="4" x="-3.2" y="-4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="5" x="-2.2" y="-4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="6" x="-1.2" y="-4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="7" x="-0.2" y="-4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="8" x="0.8" y="-4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="9" x="1.8" y="-4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="11" x="3.8" y="-4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="10" x="2.8" y="-4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="12" x="4.8" y="-4.4" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="13" x="5.95" y="-4.4" dx="1.5" dy="1" layer="1" rot="R90"/>
+<polygon width="0" layer="41" spacing="0.1" pour="hatch">
+<vertex x="2.2" y="-3.6"/>
+<vertex x="7" y="-3.6"/>
+<vertex x="7" y="3.6"/>
+<vertex x="2.2" y="3.6"/>
+</polygon>
+<polygon width="0" layer="42" spacing="0.1" pour="hatch">
+<vertex x="2.2" y="-3.6"/>
+<vertex x="2.2" y="3.6"/>
+<vertex x="7" y="3.6"/>
+<vertex x="7" y="-3.6"/>
+</polygon>
+<wire x1="-6.8" y1="-5" x2="-7.2" y2="-5" width="0.2" layer="29"/>
+<wire x1="-7.2" y1="-5" x2="-7.2" y2="-4" width="0.2" layer="29"/>
+<wire x1="6.7" y1="5" x2="7.2" y2="5" width="0.2" layer="29"/>
+<wire x1="7.2" y1="5" x2="7.2" y2="4" width="0.2" layer="29"/>
+<wire x1="-6.25" y1="-5.5" x2="-6" y2="-5.75" width="0.2" layer="21" curve="-90"/>
+<wire x1="-6" y1="-5.75" x2="-6.25" y2="-6" width="0.2" layer="21" curve="-90"/>
+<wire x1="-6.25" y1="-6" x2="-6.5" y2="-5.75" width="0.2" layer="21" curve="-90"/>
+<wire x1="-6.5" y1="-5.75" x2="-6.25" y2="-5.5" width="0.2" layer="21" curve="-90"/>
+<wire x1="-6.8" y1="-4.8" x2="-7" y2="-4.8" width="0.2" layer="21"/>
+<wire x1="-7" y1="-4.8" x2="-7" y2="-2.6" width="0.2" layer="21"/>
+<wire x1="-7" y1="2.6" x2="-7" y2="4.8" width="0.2" layer="21"/>
+<wire x1="-7" y1="4.8" x2="-6.8" y2="4.8" width="0.2" layer="21"/>
+<wire x1="6.7" y1="4.8" x2="7" y2="4.8" width="0.2" layer="21"/>
+<wire x1="7" y1="4.8" x2="7" y2="-4.8" width="0.2" layer="21"/>
+<wire x1="7" y1="-4.8" x2="6.7" y2="-4.8" width="0.2" layer="21"/>
+<wire x1="-7.55" y1="5.35" x2="-7.55" y2="-5.35" width="0.05" layer="39"/>
+<wire x1="-7.55" y1="-5.35" x2="7.3" y2="-5.35" width="0.05" layer="39"/>
+<wire x1="7.3" y1="-5.35" x2="7.3" y2="5.35" width="0.05" layer="39"/>
+<wire x1="7.3" y1="5.35" x2="-7.55" y2="5.35" width="0.05" layer="39"/>
+<text x="-7" y="5.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7" y="-7" size="1.27" layer="25">&gt;VALUE</text>
+<wire x1="0" y1="0.5" x2="0" y2="-0.5" width="0.025" layer="23"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.025" layer="23"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ODIN-W160">
@@ -8517,6 +8587,45 @@
 <pin name="V_INT" x="-27.94" y="50.8" length="middle" direction="pwr"/>
 <text x="-22.86" y="68.58" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-5.08" y="2.54" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+</symbol>
+<symbol name="CAM-M8Q/C">
+<description>&lt;b&gt;CAM-M8:&lt;/b&gt; Electrical Symbol &lt;p&gt;
+&lt;a href="http://www.u-blox.com"&gt;u-blox.com&lt;/a&gt;</description>
+<pin name="RF_IN" x="22.86" y="2.54" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="RF_OUT" x="22.86" y="10.16" visible="pin" length="middle" direction="out" rot="R180"/>
+<pin name="LNA_EN" x="22.86" y="-5.08" visible="pin" length="middle" direction="out" rot="R180"/>
+<pin name="D_SEL" x="-35.56" y="-2.54" visible="pin" length="middle" direction="in"/>
+<pin name="SDA/!SPI_CS" x="-35.56" y="7.62" visible="pin" length="middle"/>
+<pin name="SCL/SPI_CLK" x="-35.56" y="10.16" visible="pin" length="middle" direction="in"/>
+<pin name="!RESET" x="-35.56" y="-22.86" visible="pin" length="middle" direction="in"/>
+<pin name="VCC" x="-5.08" y="27.94" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="VCC_IO" x="-12.7" y="27.94" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="V_BCKP" x="2.54" y="27.94" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="EXT_INT" x="-35.56" y="-7.62" visible="pin" length="middle"/>
+<pin name="TIMEPULSE" x="-35.56" y="-10.16" visible="pin" length="middle" direction="out"/>
+<pin name="RXD/SPI_MOSI" x="-35.56" y="2.54" visible="pin" length="middle" direction="in"/>
+<pin name="TXD/SPI_MISO" x="-35.56" y="5.08" visible="pin" length="middle" direction="out"/>
+<pin name="GND$1" x="-22.86" y="-38.1" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<wire x1="-30.48" y1="22.86" x2="-30.48" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="-33.02" x2="17.78" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-33.02" x2="17.78" y2="22.86" width="0.254" layer="94"/>
+<wire x1="17.78" y1="22.86" x2="-30.48" y2="22.86" width="0.254" layer="94"/>
+<pin name="RSVD$1" x="22.86" y="-17.78" length="middle" direction="nc" rot="R180"/>
+<pin name="GND$2" x="-20.32" y="-38.1" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND$3" x="-17.78" y="-38.1" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND$4" x="-15.24" y="-38.1" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND$5" x="-12.7" y="-38.1" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND$6" x="-10.16" y="-38.1" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND$7" x="-7.62" y="-38.1" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND$8" x="-5.08" y="-38.1" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND$9" x="-2.54" y="-38.1" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND$10" x="0" y="-38.1" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND$11" x="2.54" y="-38.1" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND$12" x="5.08" y="-38.1" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND$13" x="7.62" y="-38.1" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND$14" x="10.16" y="-38.1" length="middle" direction="pwr" rot="R90"/>
+<pin name="!SAFEBOOT" x="-35.56" y="-17.78" length="middle" direction="in"/>
+<pin name="RSVD$2" x="22.86" y="-20.32" length="middle" direction="nc" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9737,6 +9846,53 @@ Wi-Fi, Bluetooth and NFC &lt;p&gt;
 <connect gate="B" pin="VSIM" pad="41"/>
 <connect gate="B" pin="V_BCKP" pad="2"/>
 <connect gate="B" pin="V_INT" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAM-M8">
+<description>&lt;b&gt;CAM-M8x:&lt;/b&gt; M8 Concurrent GNSS Antenna Module &lt;p&gt;
+&lt;a href="http://www.u-blox.com"&gt;u-blox.com&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAM-M8Q/C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAM-M8">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="23"/>
+<connect gate="G$1" pin="!SAFEBOOT" pad="24"/>
+<connect gate="G$1" pin="D_SEL" pad="20"/>
+<connect gate="G$1" pin="EXT_INT" pad="7"/>
+<connect gate="G$1" pin="GND$1" pad="4"/>
+<connect gate="G$1" pin="GND$10" pad="19"/>
+<connect gate="G$1" pin="GND$11" pad="21"/>
+<connect gate="G$1" pin="GND$12" pad="22"/>
+<connect gate="G$1" pin="GND$13" pad="27"/>
+<connect gate="G$1" pin="GND$14" pad="31"/>
+<connect gate="G$1" pin="GND$2" pad="5"/>
+<connect gate="G$1" pin="GND$3" pad="10"/>
+<connect gate="G$1" pin="GND$4" pad="11"/>
+<connect gate="G$1" pin="GND$5" pad="12"/>
+<connect gate="G$1" pin="GND$6" pad="13"/>
+<connect gate="G$1" pin="GND$7" pad="14"/>
+<connect gate="G$1" pin="GND$8" pad="15"/>
+<connect gate="G$1" pin="GND$9" pad="18"/>
+<connect gate="G$1" pin="LNA_EN" pad="30"/>
+<connect gate="G$1" pin="RF_IN" pad="17"/>
+<connect gate="G$1" pin="RF_OUT" pad="16"/>
+<connect gate="G$1" pin="RSVD$1" pad="2"/>
+<connect gate="G$1" pin="RSVD$2" pad="28"/>
+<connect gate="G$1" pin="RXD/SPI_MOSI" pad="26"/>
+<connect gate="G$1" pin="SCL/SPI_CLK" pad="6"/>
+<connect gate="G$1" pin="SDA/!SPI_CS" pad="3"/>
+<connect gate="G$1" pin="TIMEPULSE" pad="29"/>
+<connect gate="G$1" pin="TXD/SPI_MISO" pad="25"/>
+<connect gate="G$1" pin="VCC" pad="9"/>
+<connect gate="G$1" pin="VCC_IO" pad="1"/>
+<connect gate="G$1" pin="V_BCKP" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
