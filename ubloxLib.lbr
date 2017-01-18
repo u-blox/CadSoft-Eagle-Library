@@ -7613,6 +7613,119 @@
 <wire x1="0" y1="0.5" x2="0" y2="-0.5" width="0.025" layer="23"/>
 <wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.025" layer="23"/>
 </package>
+<package name="SAM-M8Q">
+<smd name="1" x="-6.6" y="3.8" dx="1.8" dy="1.5" layer="1" cream="no"/>
+<smd name="2" x="-6.6" y="1.9" dx="1.8" dy="1.5" layer="1" cream="no"/>
+<smd name="3" x="-6.6" y="0" dx="1.8" dy="1.5" layer="1" cream="no"/>
+<smd name="4" x="-6.6" y="-1.9" dx="1.8" dy="1.5" layer="1" cream="no"/>
+<smd name="5" x="-6.6" y="-3.8" dx="1.8" dy="1.5" layer="1" cream="no"/>
+<wire x1="7.75" y1="7.75" x2="7.75" y2="-7.75" width="0.127" layer="51"/>
+<wire x1="7.75" y1="7.75" x2="-7.15" y2="7.75" width="0.127" layer="51"/>
+<wire x1="-7.15" y1="7.75" x2="-7.75" y2="7.75" width="0.127" layer="51"/>
+<wire x1="-7.75" y1="-7.75" x2="-7.75" y2="7.15" width="0.127" layer="51"/>
+<wire x1="-7.75" y1="7.15" x2="-7.75" y2="7.75" width="0.127" layer="51"/>
+<wire x1="7.75" y1="-7.75" x2="-7.75" y2="-7.75" width="0.127" layer="51"/>
+<wire x1="5.55" y1="5.55" x2="-5.55" y2="5.55" width="0.127" layer="51"/>
+<wire x1="-5.55" y1="5.55" x2="-5.55" y2="-5.55" width="0.127" layer="51"/>
+<wire x1="5.55" y1="5.55" x2="5.55" y2="-5.55" width="0.127" layer="51"/>
+<wire x1="5.55" y1="-5.55" x2="-5.55" y2="-5.55" width="0.127" layer="51"/>
+<smd name="15" x="6.6" y="3.8" dx="1.8" dy="1.5" layer="1" cream="no"/>
+<smd name="14" x="6.6" y="1.9" dx="1.8" dy="1.5" layer="1" cream="no"/>
+<smd name="13" x="6.6" y="0" dx="1.8" dy="1.5" layer="1" cream="no"/>
+<smd name="12" x="6.6" y="-1.9" dx="1.8" dy="1.5" layer="1" cream="no"/>
+<smd name="11" x="6.6" y="-3.8" dx="1.8" dy="1.5" layer="1" cream="no"/>
+<smd name="20" x="-3.8" y="6.6" dx="1.8" dy="1.5" layer="1" rot="R90" cream="no"/>
+<smd name="19" x="-1.9" y="6.6" dx="1.8" dy="1.5" layer="1" rot="R90" cream="no"/>
+<smd name="18" x="0" y="6.6" dx="1.8" dy="1.5" layer="1" rot="R90" cream="no"/>
+<smd name="17" x="1.9" y="6.6" dx="1.8" dy="1.5" layer="1" rot="R90" cream="no"/>
+<smd name="16" x="3.8" y="6.6" dx="1.8" dy="1.5" layer="1" rot="R90" cream="no"/>
+<smd name="6" x="-3.8" y="-6.6" dx="1.8" dy="1.5" layer="1" rot="R90" cream="no"/>
+<smd name="7" x="-1.9" y="-6.6" dx="1.8" dy="1.5" layer="1" rot="R90" cream="no"/>
+<smd name="8" x="0" y="-6.6" dx="1.8" dy="1.5" layer="1" rot="R90" cream="no"/>
+<smd name="9" x="1.9" y="-6.6" dx="1.8" dy="1.5" layer="1" rot="R90" cream="no"/>
+<smd name="10" x="3.8" y="-6.6" dx="1.8" dy="1.5" layer="1" rot="R90" cream="no"/>
+<wire x1="-7.15" y1="7.75" x2="-7.75" y2="7.15" width="0.127" layer="51"/>
+<rectangle x1="-4.52" y1="5.74" x2="-3.94" y2="6.46" layer="31"/>
+<rectangle x1="-4.52" y1="6.74" x2="-3.94" y2="7.46" layer="31"/>
+<rectangle x1="-3.66" y1="5.74" x2="-3.08" y2="6.46" layer="31"/>
+<rectangle x1="-3.66" y1="6.74" x2="-3.08" y2="7.46" layer="31"/>
+<rectangle x1="-2.62" y1="5.74" x2="-2.04" y2="6.46" layer="31"/>
+<rectangle x1="-2.62" y1="6.74" x2="-2.04" y2="7.46" layer="31"/>
+<rectangle x1="-1.76" y1="5.74" x2="-1.18" y2="6.46" layer="31"/>
+<rectangle x1="-1.76" y1="6.74" x2="-1.18" y2="7.46" layer="31"/>
+<rectangle x1="-0.72" y1="5.74" x2="-0.14" y2="6.46" layer="31"/>
+<rectangle x1="-0.72" y1="6.74" x2="-0.14" y2="7.46" layer="31"/>
+<rectangle x1="0.14" y1="5.74" x2="0.72" y2="6.46" layer="31"/>
+<rectangle x1="0.14" y1="6.74" x2="0.72" y2="7.46" layer="31"/>
+<rectangle x1="1.18" y1="5.74" x2="1.76" y2="6.46" layer="31"/>
+<rectangle x1="1.18" y1="6.74" x2="1.76" y2="7.46" layer="31"/>
+<rectangle x1="2.04" y1="5.74" x2="2.62" y2="6.46" layer="31"/>
+<rectangle x1="2.04" y1="6.74" x2="2.62" y2="7.46" layer="31"/>
+<rectangle x1="3.08" y1="5.74" x2="3.66" y2="6.46" layer="31"/>
+<rectangle x1="3.08" y1="6.74" x2="3.66" y2="7.46" layer="31"/>
+<rectangle x1="3.94" y1="5.74" x2="4.52" y2="6.46" layer="31"/>
+<rectangle x1="3.94" y1="6.74" x2="4.52" y2="7.46" layer="31"/>
+<rectangle x1="-4.52" y1="-7.46" x2="-3.94" y2="-6.74" layer="31"/>
+<rectangle x1="-4.52" y1="-6.46" x2="-3.94" y2="-5.74" layer="31"/>
+<rectangle x1="-3.66" y1="-7.46" x2="-3.08" y2="-6.74" layer="31"/>
+<rectangle x1="-3.66" y1="-6.46" x2="-3.08" y2="-5.74" layer="31"/>
+<rectangle x1="-2.62" y1="-7.46" x2="-2.04" y2="-6.74" layer="31"/>
+<rectangle x1="-2.62" y1="-6.46" x2="-2.04" y2="-5.74" layer="31"/>
+<rectangle x1="-1.76" y1="-7.46" x2="-1.18" y2="-6.74" layer="31"/>
+<rectangle x1="-1.76" y1="-6.46" x2="-1.18" y2="-5.74" layer="31"/>
+<rectangle x1="-0.72" y1="-7.46" x2="-0.14" y2="-6.74" layer="31"/>
+<rectangle x1="-0.72" y1="-6.46" x2="-0.14" y2="-5.74" layer="31"/>
+<rectangle x1="0.14" y1="-7.46" x2="0.72" y2="-6.74" layer="31"/>
+<rectangle x1="0.14" y1="-6.46" x2="0.72" y2="-5.74" layer="31"/>
+<rectangle x1="1.18" y1="-7.46" x2="1.76" y2="-6.74" layer="31"/>
+<rectangle x1="1.18" y1="-6.46" x2="1.76" y2="-5.74" layer="31"/>
+<rectangle x1="2.04" y1="-7.46" x2="2.62" y2="-6.74" layer="31"/>
+<rectangle x1="2.04" y1="-6.46" x2="2.62" y2="-5.74" layer="31"/>
+<rectangle x1="3.08" y1="-7.46" x2="3.66" y2="-6.74" layer="31"/>
+<rectangle x1="3.08" y1="-6.46" x2="3.66" y2="-5.74" layer="31"/>
+<rectangle x1="3.94" y1="-7.46" x2="4.52" y2="-6.74" layer="31"/>
+<rectangle x1="3.94" y1="-6.46" x2="4.52" y2="-5.74" layer="31"/>
+<rectangle x1="-6.39" y1="-4.59" x2="-5.81" y2="-3.87" layer="31" rot="R90"/>
+<rectangle x1="-7.39" y1="-4.59" x2="-6.81" y2="-3.87" layer="31" rot="R90"/>
+<rectangle x1="-6.39" y1="-3.73" x2="-5.81" y2="-3.01" layer="31" rot="R90"/>
+<rectangle x1="-7.39" y1="-3.73" x2="-6.81" y2="-3.01" layer="31" rot="R90"/>
+<rectangle x1="-6.39" y1="-2.69" x2="-5.81" y2="-1.97" layer="31" rot="R90"/>
+<rectangle x1="-7.39" y1="-2.69" x2="-6.81" y2="-1.97" layer="31" rot="R90"/>
+<rectangle x1="-6.39" y1="-1.83" x2="-5.81" y2="-1.11" layer="31" rot="R90"/>
+<rectangle x1="-7.39" y1="-1.83" x2="-6.81" y2="-1.11" layer="31" rot="R90"/>
+<rectangle x1="-6.39" y1="3.01" x2="-5.81" y2="3.73" layer="31" rot="R90"/>
+<rectangle x1="-7.39" y1="3.01" x2="-6.81" y2="3.73" layer="31" rot="R90"/>
+<rectangle x1="-6.39" y1="3.87" x2="-5.81" y2="4.59" layer="31" rot="R90"/>
+<rectangle x1="-7.39" y1="3.87" x2="-6.81" y2="4.59" layer="31" rot="R90"/>
+<rectangle x1="-6.39" y1="1.11" x2="-5.81" y2="1.83" layer="31" rot="R90"/>
+<rectangle x1="-7.39" y1="1.11" x2="-6.81" y2="1.83" layer="31" rot="R90"/>
+<rectangle x1="-6.39" y1="1.97" x2="-5.81" y2="2.69" layer="31" rot="R90"/>
+<rectangle x1="-7.39" y1="1.97" x2="-6.81" y2="2.69" layer="31" rot="R90"/>
+<rectangle x1="-6.39" y1="-0.79" x2="-5.81" y2="-0.07" layer="31" rot="R90"/>
+<rectangle x1="-7.39" y1="-0.79" x2="-6.81" y2="-0.07" layer="31" rot="R90"/>
+<rectangle x1="-6.39" y1="0.07" x2="-5.81" y2="0.79" layer="31" rot="R90"/>
+<rectangle x1="-7.39" y1="0.07" x2="-6.81" y2="0.79" layer="31" rot="R90"/>
+<rectangle x1="6.81" y1="3.01" x2="7.39" y2="3.73" layer="31" rot="R90"/>
+<rectangle x1="5.81" y1="3.01" x2="6.39" y2="3.73" layer="31" rot="R90"/>
+<rectangle x1="6.81" y1="3.87" x2="7.39" y2="4.59" layer="31" rot="R90"/>
+<rectangle x1="5.81" y1="3.87" x2="6.39" y2="4.59" layer="31" rot="R90"/>
+<rectangle x1="6.81" y1="1.11" x2="7.39" y2="1.83" layer="31" rot="R90"/>
+<rectangle x1="5.81" y1="1.11" x2="6.39" y2="1.83" layer="31" rot="R90"/>
+<rectangle x1="6.81" y1="1.97" x2="7.39" y2="2.69" layer="31" rot="R90"/>
+<rectangle x1="5.81" y1="1.97" x2="6.39" y2="2.69" layer="31" rot="R90"/>
+<rectangle x1="6.81" y1="-0.79" x2="7.39" y2="-0.07" layer="31" rot="R90"/>
+<rectangle x1="5.81" y1="-0.79" x2="6.39" y2="-0.07" layer="31" rot="R90"/>
+<rectangle x1="6.81" y1="0.07" x2="7.39" y2="0.79" layer="31" rot="R90"/>
+<rectangle x1="5.81" y1="0.07" x2="6.39" y2="0.79" layer="31" rot="R90"/>
+<rectangle x1="6.81" y1="-2.69" x2="7.39" y2="-1.97" layer="31" rot="R90"/>
+<rectangle x1="5.81" y1="-2.69" x2="6.39" y2="-1.97" layer="31" rot="R90"/>
+<rectangle x1="6.81" y1="-1.83" x2="7.39" y2="-1.11" layer="31" rot="R90"/>
+<rectangle x1="5.81" y1="-1.83" x2="6.39" y2="-1.11" layer="31" rot="R90"/>
+<rectangle x1="6.81" y1="-4.59" x2="7.39" y2="-3.87" layer="31" rot="R90"/>
+<rectangle x1="5.81" y1="-4.59" x2="6.39" y2="-3.87" layer="31" rot="R90"/>
+<rectangle x1="6.81" y1="-3.73" x2="7.39" y2="-3.01" layer="31" rot="R90"/>
+<rectangle x1="5.81" y1="-3.73" x2="6.39" y2="-3.01" layer="31" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ODIN-W160">
@@ -8695,6 +8808,24 @@
 <pin name="GND$14" x="10.16" y="-38.1" length="middle" direction="pwr" rot="R90"/>
 <pin name="!SAFEBOOT" x="-35.56" y="-17.78" length="middle" direction="in"/>
 <pin name="RSVD$2" x="22.86" y="-20.32" length="middle" direction="nc" rot="R180"/>
+</symbol>
+<symbol name="SAM-M8Q">
+<wire x1="0" y1="0" x2="30.48" y2="0" width="0.254" layer="94"/>
+<wire x1="30.48" y1="0" x2="30.48" y2="30.48" width="0.254" layer="94"/>
+<wire x1="30.48" y1="30.48" x2="0" y2="30.48" width="0.254" layer="94"/>
+<wire x1="0" y1="30.48" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="VCC_IO" x="-5.08" y="20.32" length="middle"/>
+<pin name="V_BCKP" x="-5.08" y="15.24" length="middle"/>
+<pin name="GND" x="-5.08" y="10.16" length="middle"/>
+<pin name="TP" x="10.16" y="-5.08" length="middle" rot="R90"/>
+<pin name="SAFEBOOT_N" x="15.24" y="-5.08" length="middle" rot="R90"/>
+<pin name="SDA" x="20.32" y="-5.08" length="middle" rot="R90"/>
+<pin name="SCL" x="35.56" y="10.16" length="middle" rot="R180"/>
+<pin name="TXD" x="35.56" y="15.24" length="middle" rot="R180"/>
+<pin name="RXD" x="35.56" y="20.32" length="middle" rot="R180"/>
+<pin name="VCC" x="20.32" y="35.56" length="middle" rot="R270"/>
+<pin name="RESET_N" x="15.24" y="35.56" length="middle" rot="R270"/>
+<pin name="EXTINT" x="10.16" y="35.56" length="middle" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9962,6 +10093,33 @@ Wi-Fi, Bluetooth and NFC &lt;p&gt;
 <connect gate="G$1" pin="VCC" pad="9"/>
 <connect gate="G$1" pin="VCC_IO" pad="1"/>
 <connect gate="G$1" pin="V_BCKP" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SAM-M8Q" prefix="IC">
+<description>u-blox SAM GNSS antenna module</description>
+<gates>
+<gate name="G$1" symbol="SAM-M8Q" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SAM-M8Q">
+<connects>
+<connect gate="G$1" pin="EXTINT" pad="19"/>
+<connect gate="G$1" pin="GND" pad="1 4 5 6 10 11 15 16 20"/>
+<connect gate="G$1" pin="RESET_N" pad="18"/>
+<connect gate="G$1" pin="RXD" pad="14"/>
+<connect gate="G$1" pin="SAFEBOOT_N" pad="8"/>
+<connect gate="G$1" pin="SCL" pad="12"/>
+<connect gate="G$1" pin="SDA" pad="9"/>
+<connect gate="G$1" pin="TP" pad="7"/>
+<connect gate="G$1" pin="TXD" pad="13"/>
+<connect gate="G$1" pin="VCC" pad="17"/>
+<connect gate="G$1" pin="VCC_IO" pad="2"/>
+<connect gate="G$1" pin="V_BCKP" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
