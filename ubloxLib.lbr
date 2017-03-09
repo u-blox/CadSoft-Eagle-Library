@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -24,7 +24,7 @@
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
@@ -7873,6 +7873,135 @@
 <smd name="1" x="6.4" y="-7.4" dx="0.8" dy="1.8" layer="1" rot="R90"/>
 <text x="4.29" y="0.9" size="1.016" layer="21" rot="R180">u-blox NEO</text>
 </package>
+<package name="ZOE-M8G">
+<wire x1="0" y1="0.003" x2="0.005" y2="0.003" width="0" layer="21"/>
+<wire x1="-2.25" y1="2.25" x2="-2.25" y2="-2.25" width="0" layer="51"/>
+<wire x1="-2.25" y1="-2.25" x2="2.25" y2="-2.25" width="0" layer="51"/>
+<wire x1="2.25" y1="-2.25" x2="2.25" y2="2.25" width="0" layer="51"/>
+<wire x1="2.25" y1="2.25" x2="-2.25" y2="2.25" width="0" layer="51"/>
+<smd name="P$A5" x="0" y="2" dx="0.27" dy="0.27" layer="1" roundness="100" stop="no"/>
+<smd name="P$A6" x="0.5" y="2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R90" stop="no"/>
+<smd name="P$A7" x="1" y="2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R90" stop="no"/>
+<smd name="P$A8" x="1.5" y="2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$A9" x="2" y="2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$B9" x="2" y="1.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$C9" x="2" y="1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$D9" x="2" y="0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$E9" x="2" y="0" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$F9" x="2" y="-0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$G9" x="2" y="-1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$H9" x="2" y="-1.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$J9" x="2" y="-2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$J8" x="1.5" y="-2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$J7" x="1" y="-2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$J6" x="0.5" y="-2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$J5" x="0" y="-2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$J4" x="-0.5" y="-2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$J3" x="-1" y="-2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$J2" x="-1.5" y="-2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$J1" x="-2" y="-2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$H1" x="-2" y="-1.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$G1" x="-2" y="-1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$F1" x="-2" y="-0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$2E1" x="-2" y="0" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$D1" x="-2" y="0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$C1" x="-2" y="1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$B1" x="-2" y="1.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$A1" x="-2" y="2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$A2" x="-1.5" y="2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$A3" x="-1" y="2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$A4" x="-0.5" y="2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$C3" x="-1" y="1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$C4" x="-0.5" y="1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$C5" x="0" y="1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$C6" x="0.5" y="1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$C7" x="1" y="1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$D3" x="-1" y="0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$E3" x="-1" y="0" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$F3" x="-1" y="-0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$G3" x="-1" y="-1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$G4" x="-0.5" y="-1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$G5" x="0" y="-1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$G6" x="0.5" y="-1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$G7" x="1" y="-1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$F4" x="-0.5" y="-0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$F6" x="0.5" y="-0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$F7" x="1" y="-0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$E7" x="1" y="0" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$D6" x="0.5" y="0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$D4" x="-0.5" y="0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<circle x="2" y="2" radius="0.185" width="0" layer="29"/>
+<circle x="2" y="1.5" radius="0.185" width="0" layer="29"/>
+<circle x="2" y="1" radius="0.185" width="0" layer="29"/>
+<circle x="2" y="0.5" radius="0.185" width="0" layer="29"/>
+<circle x="2" y="0" radius="0.185" width="0" layer="29"/>
+<circle x="2" y="-0.5" radius="0.185" width="0" layer="29"/>
+<circle x="2" y="-1" radius="0.185" width="0" layer="29"/>
+<circle x="2" y="-1.5" radius="0.185" width="0" layer="29"/>
+<circle x="1.5" y="2" radius="0.185" width="0" layer="29"/>
+<circle x="1" y="2" radius="0.185" width="0" layer="29"/>
+<circle x="0.5" y="2" radius="0.185" width="0" layer="29"/>
+<circle x="0" y="2" radius="0.185" width="0" layer="29"/>
+<circle x="-0.5" y="2" radius="0.185" width="0" layer="29"/>
+<circle x="-1" y="2" radius="0.185" width="0" layer="29"/>
+<circle x="-1.5" y="2" radius="0.185" width="0" layer="29"/>
+<circle x="-2" y="2" radius="0.185" width="0" layer="29"/>
+<circle x="-2" y="1.5" radius="0.185" width="0" layer="29"/>
+<circle x="-2" y="1" radius="0.185" width="0" layer="29"/>
+<circle x="-2" y="0.5" radius="0.185" width="0" layer="29"/>
+<circle x="-2" y="0" radius="0.185" width="0" layer="29"/>
+<circle x="-2" y="-0.5" radius="0.185" width="0" layer="29"/>
+<circle x="-2" y="-1" radius="0.185" width="0" layer="29"/>
+<circle x="-2" y="-1.5" radius="0.185" width="0" layer="29"/>
+<circle x="-2" y="-2" radius="0.185" width="0" layer="29"/>
+<circle x="-1.5" y="-2" radius="0.185" width="0" layer="29"/>
+<circle x="-1" y="-2" radius="0.185" width="0" layer="29"/>
+<circle x="-0.5" y="-2" radius="0.185" width="0" layer="29"/>
+<circle x="0" y="-2" radius="0.185" width="0" layer="29"/>
+<circle x="0.5" y="-2" radius="0.185" width="0" layer="29"/>
+<circle x="1" y="-2" radius="0.185" width="0" layer="29"/>
+<circle x="1.5" y="-2" radius="0.185" width="0" layer="29"/>
+<circle x="2" y="-2" radius="0.185" width="0" layer="29"/>
+<circle x="-1" y="1" radius="0.185" width="0" layer="29"/>
+<circle x="-1" y="0.5" radius="0.185" width="0" layer="29"/>
+<circle x="-1" y="0" radius="0.185" width="0" layer="29"/>
+<circle x="-1" y="-0.5" radius="0.185" width="0" layer="29"/>
+<circle x="-1" y="-1" radius="0.185" width="0" layer="29"/>
+<circle x="-0.5" y="1" radius="0.185" width="0" layer="29"/>
+<circle x="-0.5" y="0.5" radius="0.185" width="0" layer="29"/>
+<circle x="-0.5" y="-0.5" radius="0.185" width="0" layer="29"/>
+<circle x="-0.5" y="-1" radius="0.185" width="0" layer="29"/>
+<circle x="0" y="1" radius="0.185" width="0" layer="29"/>
+<circle x="0" y="-1" radius="0.185" width="0" layer="29"/>
+<circle x="0.5" y="1" radius="0.185" width="0" layer="29"/>
+<circle x="0.5" y="0.5" radius="0.185" width="0" layer="29"/>
+<circle x="0.5" y="-0.5" radius="0.185" width="0" layer="29"/>
+<circle x="0.5" y="-1" radius="0.185" width="0" layer="29"/>
+<circle x="1" y="1" radius="0.185" width="0" layer="29"/>
+<circle x="1" y="0" radius="0.185" width="0" layer="29"/>
+<circle x="1" y="-0.5" radius="0.185" width="0" layer="29"/>
+<circle x="1" y="-1" radius="0.185" width="0" layer="29"/>
+<text x="-2.75" y="2" size="0.254" layer="51">A</text>
+<text x="-2.75" y="1.5" size="0.254" layer="51">B</text>
+<text x="-2.75" y="1" size="0.254" layer="51">C</text>
+<text x="-2.75" y="0.5" size="0.254" layer="51">D</text>
+<text x="-2.75" y="0" size="0.254" layer="51">E</text>
+<text x="-2.75" y="-0.5" size="0.254" layer="51">F</text>
+<text x="-2.75" y="-1" size="0.254" layer="51">G</text>
+<text x="-2.75" y="-1.5" size="0.254" layer="51">H</text>
+<text x="-2.75" y="-2" size="0.254" layer="51">J</text>
+<text x="-2" y="2.5" size="0.254" layer="51">1</text>
+<text x="-1.5" y="2.5" size="0.254" layer="51">2</text>
+<text x="-1" y="2.5" size="0.254" layer="51">3</text>
+<text x="-0.5" y="2.5" size="0.254" layer="51">4</text>
+<text x="0" y="2.5" size="0.254" layer="51">5</text>
+<text x="0.5" y="2.5" size="0.254" layer="51">6</text>
+<text x="1" y="2.5" size="0.254" layer="51">7</text>
+<text x="1.5" y="2.5" size="0.254" layer="51">8</text>
+<text x="2" y="2.5" size="0.254" layer="51">9</text>
+<dimension x1="2.25" y1="-2.25" x2="2.25" y2="2.25" x3="4.75" y3="0" textsize="0.6096" textratio="0" layer="51" dtype="vertical" width="0.1" extwidth="0.1" visible="yes"/>
+<dimension x1="-2.25" y1="-2.25" x2="2.25" y2="-2.25" x3="0" y3="-4.25" textsize="0.6096" textratio="1" layer="51" dtype="vertical" width="0.1" extwidth="0.1" visible="yes"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ODIN-W160">
@@ -9116,6 +9245,66 @@
 <pin name="3_TIMEPULSE" x="25.4" y="-38.1" visible="pin" length="middle" rot="R180"/>
 <pin name="2_D_SEL" x="25.4" y="-43.18" visible="pin" length="middle" rot="R180"/>
 <pin name="1_SAFEBOOT_N" x="25.4" y="-48.26" visible="pin" length="middle" rot="R180"/>
+</symbol>
+<symbol name="ZOE-M8G">
+<pin name="B1_SCL/SPI_CLK" x="-76.2" y="81.28" length="middle"/>
+<pin name="A2_SDA/SPI_CS_N" x="-76.2" y="76.2" length="middle"/>
+<pin name="J5_TXD/SPI_MISO" x="-76.2" y="71.12" length="middle"/>
+<pin name="J4_RXD/SPI_MOSI" x="-76.2" y="66.04" length="middle"/>
+<pin name="D4_D_SEL" x="-76.2" y="60.96" length="middle"/>
+<pin name="G4_PIO13/EXTINT" x="-76.2" y="50.8" length="middle"/>
+<pin name="C3_TIMEPULSE" x="-76.2" y="45.72" length="middle"/>
+<pin name="E1_SQI_CLK" x="-76.2" y="35.56" length="middle"/>
+<pin name="D3_SQI_CS_N" x="-76.2" y="30.48" length="middle"/>
+<pin name="D1_SQI_D0" x="-76.2" y="25.4" length="middle"/>
+<pin name="C1_SQI_D1" x="-76.2" y="20.32" length="middle"/>
+<pin name="E3_SQI_D2" x="-76.2" y="15.24" length="middle"/>
+<pin name="F3_SQI_D3" x="-76.2" y="10.16" length="middle"/>
+<pin name="C4_SAFEBOOT" x="-76.2" y="-2.54" length="middle"/>
+<pin name="J6_RESET_N" x="-76.2" y="-12.7" length="middle"/>
+<pin name="A1_GND" x="-66.04" y="-30.48" length="middle" direction="pwr" rot="R90"/>
+<pin name="A3_GND" x="-60.96" y="-30.48" length="middle" direction="pwr" rot="R90"/>
+<pin name="J3_GND" x="-55.88" y="-30.48" length="middle" direction="pwr" rot="R90"/>
+<pin name="A5_GND" x="-50.8" y="-30.48" length="middle" direction="pwr" rot="R90"/>
+<pin name="A7_GND" x="-45.72" y="-30.48" length="middle" direction="pwr" rot="R90"/>
+<pin name="A8_GND" x="-40.64" y="-30.48" length="middle" direction="pwr" rot="R90"/>
+<pin name="A9_GND" x="-35.56" y="-30.48" length="middle" direction="pwr" rot="R90"/>
+<pin name="B9_GND" x="-30.48" y="-30.48" length="middle" direction="pwr" rot="R90"/>
+<pin name="C9_GND" x="-25.4" y="-30.48" length="middle" direction="pwr" rot="R90"/>
+<pin name="D9_GND" x="-20.32" y="-30.48" length="middle" direction="pwr" rot="R90"/>
+<pin name="J9_GND" x="-15.24" y="-30.48" length="middle" direction="pwr" rot="R90"/>
+<pin name="C7_GND" x="-10.16" y="-30.48" length="middle" direction="pwr" rot="R90"/>
+<pin name="D6_GND" x="-5.08" y="-30.48" length="middle" direction="pwr" rot="R90"/>
+<pin name="E7_GND" x="0" y="-30.48" length="middle" direction="pwr" rot="R90"/>
+<pin name="F7_GND" x="5.08" y="-30.48" length="middle" direction="pwr" rot="R90"/>
+<pin name="G3_GND" x="10.16" y="-30.48" length="middle" direction="pwr" rot="R90"/>
+<pin name="G6_GND" x="15.24" y="-30.48" length="middle" direction="pwr" rot="R90"/>
+<pin name="G7_GND" x="20.32" y="-30.48" length="middle" direction="pwr" rot="R90"/>
+<pin name="A4_RF_IN" x="27.94" y="81.28" length="middle" direction="in" rot="R180"/>
+<pin name="C5_LNA_EN" x="27.94" y="76.2" length="middle" rot="R180"/>
+<pin name="J7_RTC_I" x="27.94" y="53.34" length="middle" rot="R180"/>
+<pin name="J8_RTC_0" x="27.94" y="45.72" length="middle" rot="R180"/>
+<pin name="F6_PIO14" x="27.94" y="33.02" length="middle" rot="R180"/>
+<pin name="C6_PIO15" x="27.94" y="27.94" length="middle" rot="R180"/>
+<pin name="F1_RESERVED" x="27.94" y="22.86" length="middle" rot="R180"/>
+<pin name="A6_RESREVED" x="27.94" y="17.78" length="middle" rot="R180"/>
+<pin name="E9_RESERVED" x="27.94" y="12.7" length="middle" rot="R180"/>
+<pin name="G9_RESERVED" x="27.94" y="2.54" length="middle" rot="R180"/>
+<pin name="F4_RESERVED" x="27.94" y="-2.54" length="middle" rot="R180"/>
+<pin name="G5_RESERVED" x="27.94" y="-7.62" length="middle" rot="R180"/>
+<pin name="F9_RESERVED" x="27.94" y="7.62" length="middle" rot="R180"/>
+<pin name="G1_VCC" x="-45.72" y="93.98" length="middle" direction="pwr" rot="R270"/>
+<pin name="H1_VCC" x="-38.1" y="93.98" length="middle" direction="pwr" rot="R270"/>
+<pin name="J1_VCC" x="-30.48" y="93.98" length="middle" direction="pwr" rot="R270"/>
+<pin name="J2_VCC" x="-22.86" y="93.98" length="middle" direction="pwr" rot="R270"/>
+<pin name="H9_V_BCKP" x="-10.16" y="93.98" length="middle" direction="pwr" rot="R270"/>
+<wire x1="22.86" y1="88.9" x2="22.86" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="22.86" y1="88.9" x2="-71.12" y2="88.9" width="0.254" layer="94"/>
+<wire x1="-71.12" y1="88.9" x2="-71.12" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-71.12" y1="-25.4" x2="22.86" y2="-25.4" width="0.254" layer="94"/>
+<text x="-71.12" y="93.98" size="1.778" layer="95">&gt;NAME</text>
+<text x="-86.36" y="-30.48" size="1.778" layer="95">&gt;VALUE</text>
+<text x="-27.94" y="35.56" size="1.778" layer="94">ZOE-M8G</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -10583,6 +10772,71 @@ Wi-Fi, Bluetooth and NFC &lt;p&gt;
 <connect gate="G$1" pin="7_VDD_USB" pad="7"/>
 <connect gate="G$1" pin="8_RESET_N" pad="8"/>
 <connect gate="G$1" pin="9_VCC_RF" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZOE-M8G">
+<gates>
+<gate name="G$1" symbol="ZOE-M8G" x="22.86" y="-17.78"/>
+</gates>
+<devices>
+<device name="" package="ZOE-M8G">
+<connects>
+<connect gate="G$1" pin="A1_GND" pad="P$A1"/>
+<connect gate="G$1" pin="A2_SDA/SPI_CS_N" pad="P$A2"/>
+<connect gate="G$1" pin="A3_GND" pad="P$A3"/>
+<connect gate="G$1" pin="A4_RF_IN" pad="P$A4"/>
+<connect gate="G$1" pin="A5_GND" pad="P$A5"/>
+<connect gate="G$1" pin="A6_RESREVED" pad="P$A6"/>
+<connect gate="G$1" pin="A7_GND" pad="P$A7"/>
+<connect gate="G$1" pin="A8_GND" pad="P$A8"/>
+<connect gate="G$1" pin="A9_GND" pad="P$A9"/>
+<connect gate="G$1" pin="B1_SCL/SPI_CLK" pad="P$B1"/>
+<connect gate="G$1" pin="B9_GND" pad="P$B9"/>
+<connect gate="G$1" pin="C1_SQI_D1" pad="P$C1"/>
+<connect gate="G$1" pin="C3_TIMEPULSE" pad="P$C3"/>
+<connect gate="G$1" pin="C4_SAFEBOOT" pad="P$C4"/>
+<connect gate="G$1" pin="C5_LNA_EN" pad="P$C5"/>
+<connect gate="G$1" pin="C6_PIO15" pad="P$C6"/>
+<connect gate="G$1" pin="C7_GND" pad="P$C7"/>
+<connect gate="G$1" pin="C9_GND" pad="P$C9"/>
+<connect gate="G$1" pin="D1_SQI_D0" pad="P$D1"/>
+<connect gate="G$1" pin="D3_SQI_CS_N" pad="P$D3"/>
+<connect gate="G$1" pin="D4_D_SEL" pad="P$D4"/>
+<connect gate="G$1" pin="D6_GND" pad="P$D6"/>
+<connect gate="G$1" pin="D9_GND" pad="P$D9"/>
+<connect gate="G$1" pin="E1_SQI_CLK" pad="P$2E1"/>
+<connect gate="G$1" pin="E3_SQI_D2" pad="P$E3"/>
+<connect gate="G$1" pin="E7_GND" pad="P$E7"/>
+<connect gate="G$1" pin="E9_RESERVED" pad="P$E9"/>
+<connect gate="G$1" pin="F1_RESERVED" pad="P$F1"/>
+<connect gate="G$1" pin="F3_SQI_D3" pad="P$F3"/>
+<connect gate="G$1" pin="F4_RESERVED" pad="P$F4"/>
+<connect gate="G$1" pin="F6_PIO14" pad="P$F6"/>
+<connect gate="G$1" pin="F7_GND" pad="P$F7"/>
+<connect gate="G$1" pin="F9_RESERVED" pad="P$F9"/>
+<connect gate="G$1" pin="G1_VCC" pad="P$G1"/>
+<connect gate="G$1" pin="G3_GND" pad="P$G3"/>
+<connect gate="G$1" pin="G4_PIO13/EXTINT" pad="P$G4"/>
+<connect gate="G$1" pin="G5_RESERVED" pad="P$G5"/>
+<connect gate="G$1" pin="G6_GND" pad="P$G6"/>
+<connect gate="G$1" pin="G7_GND" pad="P$G7"/>
+<connect gate="G$1" pin="G9_RESERVED" pad="P$G9"/>
+<connect gate="G$1" pin="H1_VCC" pad="P$H1"/>
+<connect gate="G$1" pin="H9_V_BCKP" pad="P$H9"/>
+<connect gate="G$1" pin="J1_VCC" pad="P$J1"/>
+<connect gate="G$1" pin="J2_VCC" pad="P$J2"/>
+<connect gate="G$1" pin="J3_GND" pad="P$J3"/>
+<connect gate="G$1" pin="J4_RXD/SPI_MOSI" pad="P$J4"/>
+<connect gate="G$1" pin="J5_TXD/SPI_MISO" pad="P$J5"/>
+<connect gate="G$1" pin="J6_RESET_N" pad="P$J6"/>
+<connect gate="G$1" pin="J7_RTC_I" pad="P$J7"/>
+<connect gate="G$1" pin="J8_RTC_0" pad="P$J8"/>
+<connect gate="G$1" pin="J9_GND" pad="P$J9"/>
 </connects>
 <technologies>
 <technology name=""/>
