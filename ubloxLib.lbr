@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="8.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -8002,6 +8002,189 @@
 <dimension x1="2.25" y1="-2.25" x2="2.25" y2="2.25" x3="4.75" y3="0" textsize="0.6096" textratio="0" layer="51" dtype="vertical" width="0.1" extwidth="0.1" visible="yes"/>
 <dimension x1="-2.25" y1="-2.25" x2="2.25" y2="-2.25" x3="0" y3="-4.25" textsize="0.6096" textratio="1" layer="51" dtype="vertical" width="0.1" extwidth="0.1" visible="yes"/>
 </package>
+<package name="NINA112-42">
+<description>&lt;b&gt;NINA-B111:&lt;/b&gt; LGA Package 42 Pin&lt;p&gt;
+&lt;a href="http://www.u-blox.com"&gt;u-blox.com&lt;/a&gt;</description>
+<text x="-5.3" y="6.2" size="1.5" layer="25">&gt;NAME</text>
+<text x="-5.3" y="-7.6" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-6.3" y="-6" radius="0.25" width="0.75" layer="21"/>
+<wire x1="-5.3" y1="5" x2="-5.3" y2="-5" width="0.15" layer="21"/>
+<wire x1="-5.3" y1="-5" x2="8.7" y2="-5" width="0.15" layer="21"/>
+<wire x1="8.7" y1="-5" x2="8.7" y2="5" width="0.15" layer="21"/>
+<wire x1="8.7" y1="5" x2="-5.3" y2="5" width="0.15" layer="21"/>
+<smd name="16" x="4.5" y="4.125" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R90"/>
+<smd name="17" x="3.5" y="4.125" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R90"/>
+<smd name="18" x="2.5" y="4.125" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R90"/>
+<smd name="19" x="1.5" y="4.125" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R90"/>
+<smd name="20" x="0.5" y="4.125" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R90"/>
+<smd name="21" x="-0.5" y="4.125" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R90"/>
+<smd name="22" x="-1.5" y="4.125" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R90"/>
+<smd name="23" x="-2.5" y="4.125" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R90"/>
+<smd name="24" x="-3.5" y="4.125" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R90"/>
+<smd name="25" x="-4.5" y="4.125" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R90"/>
+<smd name="10" x="4.5" y="-4.125" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R90"/>
+<smd name="9" x="3.5" y="-4.125" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R90"/>
+<smd name="8" x="2.5" y="-4.125" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R90"/>
+<smd name="7" x="1.5" y="-4.125" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R90"/>
+<smd name="6" x="0.5" y="-4.125" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R90"/>
+<smd name="5" x="-0.5" y="-4.125" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R90"/>
+<smd name="4" x="-1.5" y="-4.125" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R90"/>
+<smd name="3" x="-2.5" y="-4.125" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R90"/>
+<smd name="2" x="-3.5" y="-4.125" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R90"/>
+<smd name="1" x="-4.5" y="-4.125" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R90"/>
+<smd name="26" x="-4.425" y="2" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R180"/>
+<smd name="27" x="-4.425" y="1" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R180"/>
+<smd name="28" x="-4.425" y="0" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R180"/>
+<smd name="29" x="-4.425" y="-1" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R180"/>
+<smd name="30" x="-4.425" y="-2" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R180"/>
+<wire x1="-6.3" y1="6" x2="-6.3" y2="-6" width="0.1" layer="39"/>
+<wire x1="-6.3" y1="-6" x2="9.7" y2="-6" width="0.1" layer="39"/>
+<wire x1="9.7" y1="-6" x2="9.7" y2="6" width="0.1" layer="39"/>
+<wire x1="9.7" y1="6" x2="-6.3" y2="6" width="0.1" layer="39"/>
+<smd name="37" x="0.575" y="-0.575" dx="0.7" dy="0.7" layer="1" roundness="5" stop="no" thermals="no"/>
+<polygon width="0" layer="29">
+<vertex x="0.225" y="-0.245"/>
+<vertex x="0.225" y="-0.905" curve="90"/>
+<vertex x="0.245" y="-0.925"/>
+<vertex x="0.905" y="-0.925" curve="90"/>
+<vertex x="0.925" y="-0.905"/>
+<vertex x="0.925" y="-0.245" curve="90"/>
+<vertex x="0.905" y="-0.225"/>
+<vertex x="0.245" y="-0.225" curve="90"/>
+</polygon>
+<smd name="34" x="-0.575" y="-0.575" dx="0.7" dy="0.7" layer="1" roundness="5" stop="no" thermals="no"/>
+<smd name="31" x="-1.725" y="-0.575" dx="0.7" dy="0.7" layer="1" roundness="5" stop="no" thermals="no"/>
+<smd name="40" x="1.725" y="-0.575" dx="0.7" dy="0.7" layer="1" roundness="5" stop="no" thermals="no"/>
+<smd name="41" x="1.725" y="0.575" dx="0.7" dy="0.7" layer="1" roundness="5" stop="no" thermals="no"/>
+<smd name="38" x="0.575" y="0.575" dx="0.7" dy="0.7" layer="1" roundness="5" stop="no" thermals="no"/>
+<smd name="35" x="-0.575" y="0.575" dx="0.7" dy="0.7" layer="1" roundness="5" stop="no" thermals="no"/>
+<smd name="32" x="-1.725" y="0.575" dx="0.7" dy="0.7" layer="1" roundness="5" stop="no" thermals="no"/>
+<smd name="36" x="-0.575" y="1.725" dx="0.7" dy="0.7" layer="1" roundness="5" stop="no" thermals="no"/>
+<smd name="33" x="-0.575" y="-1.725" dx="0.7" dy="0.7" layer="1" roundness="5" stop="no" thermals="no"/>
+<smd name="42" x="1.725" y="1.725" dx="0.7" dy="0.7" layer="1" roundness="5" stop="no" thermals="no"/>
+<smd name="39" x="1.725" y="-1.725" dx="0.7" dy="0.7" layer="1" roundness="5" stop="no" thermals="no"/>
+<polygon width="0" layer="29">
+<vertex x="1.375" y="-0.245"/>
+<vertex x="1.375" y="-0.905" curve="90"/>
+<vertex x="1.395" y="-0.925"/>
+<vertex x="2.055" y="-0.925" curve="90"/>
+<vertex x="2.075" y="-0.905"/>
+<vertex x="2.075" y="-0.245" curve="90"/>
+<vertex x="2.055" y="-0.225"/>
+<vertex x="1.395" y="-0.225" curve="90"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.925" y="-0.245"/>
+<vertex x="-0.925" y="-0.905" curve="90"/>
+<vertex x="-0.905" y="-0.925"/>
+<vertex x="-0.245" y="-0.925" curve="90"/>
+<vertex x="-0.225" y="-0.905"/>
+<vertex x="-0.225" y="-0.245" curve="90"/>
+<vertex x="-0.245" y="-0.225"/>
+<vertex x="-0.905" y="-0.225" curve="90"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-2.075" y="-0.245"/>
+<vertex x="-2.075" y="-0.905" curve="90"/>
+<vertex x="-2.055" y="-0.925"/>
+<vertex x="-1.395" y="-0.925" curve="90"/>
+<vertex x="-1.375" y="-0.905"/>
+<vertex x="-1.375" y="-0.245" curve="90"/>
+<vertex x="-1.395" y="-0.225"/>
+<vertex x="-2.055" y="-0.225" curve="90"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-2.075" y="0.905"/>
+<vertex x="-2.075" y="0.245" curve="90"/>
+<vertex x="-2.055" y="0.225"/>
+<vertex x="-1.395" y="0.225" curve="90"/>
+<vertex x="-1.375" y="0.245"/>
+<vertex x="-1.375" y="0.905" curve="90"/>
+<vertex x="-1.395" y="0.925"/>
+<vertex x="-2.055" y="0.925" curve="90"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.925" y="0.905"/>
+<vertex x="-0.925" y="0.245" curve="90"/>
+<vertex x="-0.905" y="0.225"/>
+<vertex x="-0.245" y="0.225" curve="90"/>
+<vertex x="-0.225" y="0.245"/>
+<vertex x="-0.225" y="0.905" curve="90"/>
+<vertex x="-0.245" y="0.925"/>
+<vertex x="-0.905" y="0.925" curve="90"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="0.225" y="0.905"/>
+<vertex x="0.225" y="0.245" curve="90"/>
+<vertex x="0.245" y="0.225"/>
+<vertex x="0.905" y="0.225" curve="90"/>
+<vertex x="0.925" y="0.245"/>
+<vertex x="0.925" y="0.905" curve="90"/>
+<vertex x="0.905" y="0.925"/>
+<vertex x="0.245" y="0.925" curve="90"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="1.375" y="0.905"/>
+<vertex x="1.375" y="0.245" curve="90"/>
+<vertex x="1.395" y="0.225"/>
+<vertex x="2.055" y="0.225" curve="90"/>
+<vertex x="2.075" y="0.245"/>
+<vertex x="2.075" y="0.905" curve="90"/>
+<vertex x="2.055" y="0.925"/>
+<vertex x="1.395" y="0.925" curve="90"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.925" y="2.055"/>
+<vertex x="-0.925" y="1.395" curve="90"/>
+<vertex x="-0.905" y="1.375"/>
+<vertex x="-0.245" y="1.375" curve="90"/>
+<vertex x="-0.225" y="1.395"/>
+<vertex x="-0.225" y="2.055" curve="90"/>
+<vertex x="-0.245" y="2.075"/>
+<vertex x="-0.905" y="2.075" curve="90"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.925" y="-1.395"/>
+<vertex x="-0.925" y="-2.055" curve="90"/>
+<vertex x="-0.905" y="-2.075"/>
+<vertex x="-0.245" y="-2.075" curve="90"/>
+<vertex x="-0.225" y="-2.055"/>
+<vertex x="-0.225" y="-1.395" curve="90"/>
+<vertex x="-0.245" y="-1.375"/>
+<vertex x="-0.905" y="-1.375" curve="90"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="1.375" y="2.055"/>
+<vertex x="1.375" y="1.395" curve="90"/>
+<vertex x="1.395" y="1.375"/>
+<vertex x="2.055" y="1.375" curve="90"/>
+<vertex x="2.075" y="1.395"/>
+<vertex x="2.075" y="2.055" curve="90"/>
+<vertex x="2.055" y="2.075"/>
+<vertex x="1.395" y="2.075" curve="90"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="1.375" y="-1.395"/>
+<vertex x="1.375" y="-2.055" curve="90"/>
+<vertex x="1.395" y="-2.075"/>
+<vertex x="2.055" y="-2.075" curve="90"/>
+<vertex x="2.075" y="-2.055"/>
+<vertex x="2.075" y="-1.395" curve="90"/>
+<vertex x="2.055" y="-1.375"/>
+<vertex x="1.395" y="-1.375" curve="90"/>
+</polygon>
+<smd name="15" x="4.425" y="2" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R180"/>
+<smd name="14" x="4.425" y="1" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R180"/>
+<smd name="13" x="4.425" y="0" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R180"/>
+<smd name="12" x="4.425" y="-1" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R180"/>
+<smd name="11" x="4.425" y="-2" dx="1.15" dy="0.7" layer="1" roundness="15" rot="R180"/>
+<wire x1="8.2" y1="5.5" x2="9.2" y2="5.5" width="0.2" layer="29"/>
+<wire x1="9.2" y1="5.5" x2="9.2" y2="4.5" width="0.2" layer="29"/>
+<wire x1="-4.8" y1="-5.5" x2="-5.8" y2="-5.5" width="0.2" layer="29"/>
+<wire x1="-5.8" y1="-5.5" x2="-5.8" y2="-4.5" width="0.2" layer="29"/>
+<wire x1="0" y1="0.5" x2="0" y2="-0.5" width="0.05" layer="23"/>
+<wire x1="0.5" y1="0" x2="-0.5" y2="0" width="0.05" layer="23"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ODIN-W160">
@@ -10122,64 +10305,6 @@ Wi-Fi, Bluetooth and NFC &lt;p&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="NINA-B112" prefix="U">
-<description>&lt;b&gt;NINA-B111: &lt;/b&gt;BLE stand-alone module&lt;p&gt;
-&lt;a href="http://www.u-blox.com"&gt;u-blox.com&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="NINA-B112" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="NINA111-42">
-<connects>
-<connect gate="G$1" pin="!RESET" pad="19"/>
-<connect gate="G$1" pin="!SPI0_CS0" pad="2"/>
-<connect gate="G$1" pin="!SPI0_CS1!" pad="1"/>
-<connect gate="G$1" pin="GND@1" pad="6"/>
-<connect gate="G$1" pin="GND@10" pad="35"/>
-<connect gate="G$1" pin="GND@11" pad="36"/>
-<connect gate="G$1" pin="GND@12" pad="37"/>
-<connect gate="G$1" pin="GND@13" pad="38"/>
-<connect gate="G$1" pin="GND@14" pad="39"/>
-<connect gate="G$1" pin="GND@15" pad="40"/>
-<connect gate="G$1" pin="GND@16" pad="41"/>
-<connect gate="G$1" pin="GND@17" pad="42"/>
-<connect gate="G$1" pin="GND@2" pad="12"/>
-<connect gate="G$1" pin="GND@3" pad="14"/>
-<connect gate="G$1" pin="GND@4" pad="26"/>
-<connect gate="G$1" pin="GND@5" pad="30"/>
-<connect gate="G$1" pin="GND@6" pad="31"/>
-<connect gate="G$1" pin="GND@7" pad="32"/>
-<connect gate="G$1" pin="GND@8" pad="33"/>
-<connect gate="G$1" pin="GND@9" pad="34"/>
-<connect gate="G$1" pin="GPIO_16" pad="16"/>
-<connect gate="G$1" pin="GPIO_17" pad="17"/>
-<connect gate="G$1" pin="GPIO_18" pad="18"/>
-<connect gate="G$1" pin="GPIO_27" pad="27"/>
-<connect gate="G$1" pin="GPIO_28/NFC1" pad="28"/>
-<connect gate="G$1" pin="GPIO_29/NFC2" pad="29"/>
-<connect gate="G$1" pin="GPIO_7/BOOT" pad="7"/>
-<connect gate="G$1" pin="I2C_SCL" pad="25"/>
-<connect gate="G$1" pin="I2C_SDA" pad="24"/>
-<connect gate="G$1" pin="NC" pad="13"/>
-<connect gate="G$1" pin="SPI0_CLK" pad="5"/>
-<connect gate="G$1" pin="SPI0_MISO" pad="3"/>
-<connect gate="G$1" pin="SPI0_MOSI" pad="4"/>
-<connect gate="G$1" pin="SWDCLK" pad="11"/>
-<connect gate="G$1" pin="SWDIO" pad="15"/>
-<connect gate="G$1" pin="SWO" pad="8"/>
-<connect gate="G$1" pin="UART_CTS" pad="21"/>
-<connect gate="G$1" pin="UART_RTS" pad="20"/>
-<connect gate="G$1" pin="UART_RXD" pad="23"/>
-<connect gate="G$1" pin="UART_TXD" pad="22"/>
-<connect gate="G$1" pin="VCC" pad="10"/>
-<connect gate="G$1" pin="VCC_IO" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="THEO-P173-01A">
 <description>&lt;b&gt;THEO-P173-01A:&lt;/b&gt; 802.11p 5.9GHz dual radio module&lt;p&gt;
 &lt;a href="http://www.u-blox.com"&gt;u-blox.com&lt;/a&gt;</description>
@@ -10837,6 +10962,64 @@ Wi-Fi, Bluetooth and NFC &lt;p&gt;
 <connect gate="G$1" pin="J7_RTC_I" pad="P$J7"/>
 <connect gate="G$1" pin="J8_RTC_0" pad="P$J8"/>
 <connect gate="G$1" pin="J9_GND" pad="P$J9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NINA-B112" prefix="U">
+<description>&lt;b&gt;NINA-B112: &lt;/b&gt;BLE stand-alone module&lt;p&gt;
+&lt;a href="http://www.u-blox.com"&gt;u-blox.com&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="NINA-B112" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NINA112-42">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="19"/>
+<connect gate="G$1" pin="!SPI0_CS0" pad="2"/>
+<connect gate="G$1" pin="!SPI0_CS1!" pad="1"/>
+<connect gate="G$1" pin="GND@1" pad="6"/>
+<connect gate="G$1" pin="GND@10" pad="35"/>
+<connect gate="G$1" pin="GND@11" pad="36"/>
+<connect gate="G$1" pin="GND@12" pad="37"/>
+<connect gate="G$1" pin="GND@13" pad="38"/>
+<connect gate="G$1" pin="GND@14" pad="39"/>
+<connect gate="G$1" pin="GND@15" pad="40"/>
+<connect gate="G$1" pin="GND@16" pad="41"/>
+<connect gate="G$1" pin="GND@17" pad="42"/>
+<connect gate="G$1" pin="GND@2" pad="12"/>
+<connect gate="G$1" pin="GND@3" pad="14"/>
+<connect gate="G$1" pin="GND@4" pad="26"/>
+<connect gate="G$1" pin="GND@5" pad="30"/>
+<connect gate="G$1" pin="GND@6" pad="31"/>
+<connect gate="G$1" pin="GND@7" pad="32"/>
+<connect gate="G$1" pin="GND@8" pad="33"/>
+<connect gate="G$1" pin="GND@9" pad="34"/>
+<connect gate="G$1" pin="GPIO_16" pad="16"/>
+<connect gate="G$1" pin="GPIO_17" pad="17"/>
+<connect gate="G$1" pin="GPIO_18" pad="18"/>
+<connect gate="G$1" pin="GPIO_27" pad="27"/>
+<connect gate="G$1" pin="GPIO_28/NFC1" pad="28"/>
+<connect gate="G$1" pin="GPIO_29/NFC2" pad="29"/>
+<connect gate="G$1" pin="GPIO_7/BOOT" pad="7"/>
+<connect gate="G$1" pin="I2C_SCL" pad="25"/>
+<connect gate="G$1" pin="I2C_SDA" pad="24"/>
+<connect gate="G$1" pin="NC" pad="13"/>
+<connect gate="G$1" pin="SPI0_CLK" pad="5"/>
+<connect gate="G$1" pin="SPI0_MISO" pad="3"/>
+<connect gate="G$1" pin="SPI0_MOSI" pad="4"/>
+<connect gate="G$1" pin="SWDCLK" pad="11"/>
+<connect gate="G$1" pin="SWDIO" pad="15"/>
+<connect gate="G$1" pin="SWO" pad="8"/>
+<connect gate="G$1" pin="UART_CTS" pad="21"/>
+<connect gate="G$1" pin="UART_RTS" pad="20"/>
+<connect gate="G$1" pin="UART_RXD" pad="23"/>
+<connect gate="G$1" pin="UART_TXD" pad="22"/>
+<connect gate="G$1" pin="VCC" pad="10"/>
+<connect gate="G$1" pin="VCC_IO" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
