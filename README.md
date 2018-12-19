@@ -24,7 +24,7 @@ Contribution provided to us for any purpose without fee.
 
 This library contains the symbols and footprints for CadSoft Eagle. 
 The following symbols/footprints are available in the library:
-* POS:   CAM-M8, SAM-M8Q, NEO-M8, LEA-M8, EVA-M8, MAX-M8, ZOE-M8G
+* POS:   CAM-M8, SAM-M8Q, NEO-M8, LEA-M8, EVA-M8, MAX-M8, ZOE-M8B, ZOE-M8G, ZOE-M8Q
 * CEL:   LEON, LISA, SARA
 * SHO:   ODIN-W1, ODIN-W2, ELLA-W1, EMMY-W1, LILY-W1, NINA-B1, THEO-P173-01A
 * other: 
